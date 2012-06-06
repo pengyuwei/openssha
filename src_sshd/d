@@ -1,0 +1,52 @@
+#b main
+set args -ddd
+#b kex.c:191
+#b kex.c:138
+#b kex.c:210
+#b kex.c:243
+#b kex.c:248
+#b kex.c:252
+#b kex_finish
+#b kex_reset_dispatch
+#b kexgex_server
+#b kex_choose_conf
+#b dispatch.c:91
+#b server_accept_loop
+#b do_kex2_exchange
+#b sshd_exchange_identification
+b kex_kexinit_finish
+#b kex_send_kexinit
+#b do_authentication2
+#b input_service_request
+#b input_userauth_request
+#b userauth_finish
+#b auth2-passwd.c:58
+
+# send SSH2_MSG_KEX_DH_GEX_GROUP
+#b kexgexs.c:105
+# wait SSH2_MSG_KEX_DH_GEX_INIT
+#b kexgexs.c:117
+# send SSH2_MSG_KEX_DH_GEX_REPLY
+#b kexgexs.c:191
+
+# send SSH2_MSG_NEWKEYS
+#b kex.c:146
+# wait SSH2_MSG_NEWKEYS
+#b kex.c:152
+
+# channel
+#b server_input_channel_open
+#b server_input_channel_req
+#b session_by_channel
+#b server_input_stdin_data
+#b server_request_direct_tcpip
+#b server_request_session
+#b server_request_tun
+
+# scp/ssh
+b session_input_channel_req
+#b session_exec_req
+#b session_shell_req
+b channels.c:2090
+show args
+

@@ -1,0 +1,1300 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR=\/usr\/bin\/ar$/;"	m
+ARGV_MAX	session.c	1641;"	d	file:
+ASKPASS_PROGRAM	Makefile	/^ASKPASS_PROGRAM=$(libexecdir)\/ssh-askpass$/;"	m
+AUE_openssh	audit-bsm.c	56;"	d	file:
+AUTH_FAIL_MSG	auth.h	193;"	d
+AUTH_H	auth.h	29;"	d
+AUTH_OPTIONS_H	auth-options.h	16;"	d
+AUTORECONF	Makefile	/^AUTORECONF=autoreconf$/;"	m
+AUToReturnFunc	audit-bsm.c	70;"	d	file:
+AUToReturnFunc	audit-bsm.c	77;"	d	file:
+AUToSubjectFunc	audit-bsm.c	69;"	d	file:
+AUToSubjectFunc	audit-bsm.c	76;"	d	file:
+AWK	Makefile	/^AWK=gawk$/;"	m
+Attrib	sftp-common.h	/^struct Attrib {$/;"	s
+Attrib	sftp-common.h	/^typedef struct Attrib Attrib;$/;"	t	typeref:struct:Attrib
+AuditInfoStruct	audit-bsm.c	65;"	d	file:
+AuditInfoStruct	audit-bsm.c	72;"	d	file:
+AuditInfoTermID	audit-bsm.c	66;"	d	file:
+AuditInfoTermID	audit-bsm.c	73;"	d	file:
+AuthMethod1	auth1.c	/^struct AuthMethod1 {$/;"	s	file:
+Authctxt	auth.h	/^struct Authctxt {$/;"	s
+Authctxt	auth.h	/^typedef struct Authctxt Authctxt;$/;"	t	typeref:struct:Authctxt
+Authmethod	auth.h	/^struct Authmethod {$/;"	s
+Authmethod	auth.h	/^typedef struct Authmethod Authmethod;$/;"	t	typeref:struct:Authmethod
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -fno-builtin-memset -std=gnu99 $/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS=-I. -I\/usr\/local\/ssl\/include -I$(srcdir) -I..\/ $(PATHS) -DHAVE_CONFIG_H$/;"	m
+DAY	auth-passwd.c	65;"	d	file:
+DAY	auth-shadow.c	40;"	d	file:
+DAY	auth-shadow.c	42;"	d	file:
+DEFAULT_AUTH_FAIL_MAX	servconf.h	37;"	d
+DEFAULT_SESSIONS_MAX	servconf.h	38;"	d
+DESTDIR	Makefile	/^DESTDIR=$/;"	m
+DISABLE_UTMPX	config.h	115;"	d
+DISABLE_WTMPX	config.h	121;"	d
+ENT	Makefile	/^ENT=$/;"	m
+ENTROPY_TIMEOUT_MSEC	config.h	124;"	d
+EXEEXT	Makefile	/^EXEEXT=$/;"	m
+GETPGRP_VOID	config.h	130;"	d
+GLOB_HAS_ALTDIRFUNC	config.h	136;"	d
+GROUPACCESS_H	groupaccess.h	28;"	d
+HANDLE_DIR	sftp-server.c	/^	HANDLE_DIR,$/;"	e	enum:__anon7	file:
+HANDLE_FILE	sftp-server.c	/^	HANDLE_FILE$/;"	e	enum:__anon7	file:
+HANDLE_UNUSED	sftp-server.c	/^	HANDLE_UNUSED,$/;"	e	enum:__anon7	file:
+HAS_SHADOW_EXPIRE	config.h	145;"	d
+HAVE_ADDR_IN_UTMP	config.h	151;"	d
+HAVE_ADDR_IN_UTMPX	config.h	154;"	d
+HAVE_ADDR_V6_IN_UTMP	config.h	157;"	d
+HAVE_ADDR_V6_IN_UTMPX	config.h	160;"	d
+HAVE_ASPRINTF	config.h	172;"	d
+HAVE_ATTRIBUTE__NONNULL__	config.h	178;"	d
+HAVE_BASENAME	config.h	193;"	d
+HAVE_BCOPY	config.h	196;"	d
+HAVE_CLOCK	config.h	208;"	d
+HAVE_CLOCK_T	config.h	211;"	d
+HAVE_CONST_GAI_STRERROR_PROTO	config.h	217;"	d
+HAVE_CONTROL_IN_MSGHDR	config.h	220;"	d
+HAVE_CRYPT_H	config.h	226;"	d
+HAVE_DAEMON	config.h	232;"	d
+HAVE_DECL_GLOB_NOMATCH	config.h	240;"	d
+HAVE_DECL_H_ERRNO	config.h	244;"	d
+HAVE_DECL_MAXSYMLINKS	config.h	260;"	d
+HAVE_DECL_OFFSETOF	config.h	264;"	d
+HAVE_DECL_O_NONBLOCK	config.h	268;"	d
+HAVE_DECL_SHUT_RD	config.h	280;"	d
+HAVE_DECL_WRITEV	config.h	284;"	d
+HAVE_DECL__GETLONG	config.h	288;"	d
+HAVE_DECL__GETSHORT	config.h	292;"	d
+HAVE_DIRENT_H	config.h	301;"	d
+HAVE_DIRFD	config.h	304;"	d
+HAVE_DIRNAME	config.h	307;"	d
+HAVE_ENDIAN_H	config.h	310;"	d
+HAVE_ENDUTENT	config.h	313;"	d
+HAVE_ENDUTXENT	config.h	316;"	d
+HAVE_EVP_SHA256	config.h	322;"	d
+HAVE_EXIT_IN_UTMP	config.h	325;"	d
+HAVE_FCHMOD	config.h	328;"	d
+HAVE_FCHOWN	config.h	331;"	d
+HAVE_FCNTL_H	config.h	337;"	d
+HAVE_FEATURES_H	config.h	340;"	d
+HAVE_FREEADDRINFO	config.h	349;"	d
+HAVE_FSBLKCNT_T	config.h	352;"	d
+HAVE_FSFILCNT_T	config.h	355;"	d
+HAVE_FSTATVFS	config.h	358;"	d
+HAVE_FUTIMES	config.h	361;"	d
+HAVE_GAI_STRERROR	config.h	364;"	d
+HAVE_GETADDRINFO	config.h	367;"	d
+HAVE_GETCWD	config.h	376;"	d
+HAVE_GETGROUPLIST	config.h	379;"	d
+HAVE_GETNAMEINFO	config.h	388;"	d
+HAVE_GETOPT	config.h	391;"	d
+HAVE_GETOPT_H	config.h	394;"	d
+HAVE_GETPAGESIZE	config.h	400;"	d
+HAVE_GETRLIMIT	config.h	412;"	d
+HAVE_GETTIMEOFDAY	config.h	424;"	d
+HAVE_GETTTYENT	config.h	427;"	d
+HAVE_GETUTENT	config.h	430;"	d
+HAVE_GETUTID	config.h	433;"	d
+HAVE_GETUTLINE	config.h	436;"	d
+HAVE_GETUTXENT	config.h	439;"	d
+HAVE_GETUTXID	config.h	442;"	d
+HAVE_GETUTXLINE	config.h	445;"	d
+HAVE_GLOB	config.h	451;"	d
+HAVE_GLOB_H	config.h	454;"	d
+HAVE_HEADER_AD	config.h	475;"	d
+HAVE_HOST_IN_UTMP	config.h	478;"	d
+HAVE_HOST_IN_UTMPX	config.h	481;"	d
+HAVE_ID_IN_UTMP	config.h	490;"	d
+HAVE_ID_IN_UTMPX	config.h	493;"	d
+HAVE_INET_ATON	config.h	496;"	d
+HAVE_INET_NTOA	config.h	499;"	d
+HAVE_INET_NTOP	config.h	502;"	d
+HAVE_INNETGR	config.h	505;"	d
+HAVE_INT64_T	config.h	508;"	d
+HAVE_INTTYPES_H	config.h	511;"	d
+HAVE_INTXX_T	config.h	514;"	d
+HAVE_IN_ADDR_T	config.h	517;"	d
+HAVE_LASTLOG_H	config.h	520;"	d
+HAVE_LIBGEN_H	config.h	532;"	d
+HAVE_LIBNSL	config.h	538;"	d
+HAVE_LIBZ	config.h	556;"	d
+HAVE_LIMITS_H	config.h	559;"	d
+HAVE_LINUX_IF_TUN_H	config.h	562;"	d
+HAVE_LOGIN	config.h	565;"	d
+HAVE_LOGOUT	config.h	577;"	d
+HAVE_LOGWTMP	config.h	580;"	d
+HAVE_LONG_DOUBLE	config.h	583;"	d
+HAVE_LONG_LONG	config.h	586;"	d
+HAVE_MEMMOVE	config.h	598;"	d
+HAVE_MEMORY_H	config.h	601;"	d
+HAVE_MKDTEMP	config.h	604;"	d
+HAVE_MMAP	config.h	607;"	d
+HAVE_MODE_T	config.h	610;"	d
+HAVE_NANOSLEEP	config.h	613;"	d
+HAVE_NETDB_H	config.h	619;"	d
+HAVE_OPENPTY	config.h	647;"	d
+HAVE_OPENSSL	config.h	650;"	d
+HAVE_PATHS_H	config.h	665;"	d
+HAVE_PID_IN_UTMP	config.h	668;"	d
+HAVE_PID_T	config.h	671;"	d
+HAVE_POLL	config.h	674;"	d
+HAVE_POLL_H	config.h	677;"	d
+HAVE_PRCTL	config.h	680;"	d
+HAVE_PROC_PID	config.h	683;"	d
+HAVE_PTY_H	config.h	689;"	d
+HAVE_PUTUTLINE	config.h	692;"	d
+HAVE_PUTUTXLINE	config.h	695;"	d
+HAVE_REALPATH	config.h	713;"	d
+HAVE_RECVMSG	config.h	716;"	d
+HAVE_RPC_TYPES_H	config.h	719;"	d
+HAVE_RRESVPORT_AF	config.h	722;"	d
+HAVE_SA_FAMILY_T	config.h	725;"	d
+HAVE_SENDMSG	config.h	737;"	d
+HAVE_SETEGID	config.h	746;"	d
+HAVE_SETENV	config.h	749;"	d
+HAVE_SETEUID	config.h	752;"	d
+HAVE_SETGROUPS	config.h	755;"	d
+HAVE_SETREGID	config.h	770;"	d
+HAVE_SETRESGID	config.h	773;"	d
+HAVE_SETRESUID	config.h	776;"	d
+HAVE_SETREUID	config.h	779;"	d
+HAVE_SETRLIMIT	config.h	782;"	d
+HAVE_SETSID	config.h	785;"	d
+HAVE_SETUTENT	config.h	788;"	d
+HAVE_SETUTXENT	config.h	791;"	d
+HAVE_SETVBUF	config.h	794;"	d
+HAVE_SHA256_UPDATE	config.h	800;"	d
+HAVE_SHADOW_H	config.h	806;"	d
+HAVE_SIGACTION	config.h	809;"	d
+HAVE_SIGVEC	config.h	812;"	d
+HAVE_SIG_ATOMIC_T	config.h	815;"	d
+HAVE_SIZE_T	config.h	818;"	d
+HAVE_SNPRINTF	config.h	821;"	d
+HAVE_SOCKETPAIR	config.h	824;"	d
+HAVE_SO_PEERCRED	config.h	827;"	d
+HAVE_SSIZE_T	config.h	830;"	d
+HAVE_SS_FAMILY_IN_SS	config.h	833;"	d
+HAVE_STATFS	config.h	836;"	d
+HAVE_STATVFS	config.h	839;"	d
+HAVE_STDDEF_H	config.h	842;"	d
+HAVE_STDINT_H	config.h	845;"	d
+HAVE_STDLIB_H	config.h	848;"	d
+HAVE_STRDUP	config.h	851;"	d
+HAVE_STRERROR	config.h	854;"	d
+HAVE_STRFTIME	config.h	857;"	d
+HAVE_STRICT_MKSTEMP	config.h	860;"	d
+HAVE_STRINGS_H	config.h	863;"	d
+HAVE_STRING_H	config.h	866;"	d
+HAVE_STRSEP	config.h	881;"	d
+HAVE_STRTOLL	config.h	884;"	d
+HAVE_STRTOUL	config.h	890;"	d
+HAVE_STRUCT_ADDRINFO	config.h	893;"	d
+HAVE_STRUCT_IN6_ADDR	config.h	896;"	d
+HAVE_STRUCT_SOCKADDR_IN6	config.h	899;"	d
+HAVE_STRUCT_SOCKADDR_STORAGE	config.h	902;"	d
+HAVE_STRUCT_STAT_ST_BLKSIZE	config.h	905;"	d
+HAVE_STRUCT_TIMESPEC	config.h	908;"	d
+HAVE_STRUCT_TIMEVAL	config.h	911;"	d
+HAVE_SYSCONF	config.h	917;"	d
+HAVE_SYS_BITYPES_H	config.h	926;"	d
+HAVE_SYS_CDEFS_H	config.h	932;"	d
+HAVE_SYS_DIR_H	config.h	935;"	d
+HAVE_SYS_ERRLIST	config.h	938;"	d
+HAVE_SYS_MMAN_H	config.h	941;"	d
+HAVE_SYS_MOUNT_H	config.h	944;"	d
+HAVE_SYS_NERR	config.h	950;"	d
+HAVE_SYS_POLL_H	config.h	953;"	d
+HAVE_SYS_PRCTL_H	config.h	956;"	d
+HAVE_SYS_SELECT_H	config.h	965;"	d
+HAVE_SYS_STATVFS_H	config.h	968;"	d
+HAVE_SYS_STAT_H	config.h	971;"	d
+HAVE_SYS_STROPTS_H	config.h	977;"	d
+HAVE_SYS_SYSMACROS_H	config.h	986;"	d
+HAVE_SYS_TIME_H	config.h	992;"	d
+HAVE_SYS_TYPES_H	config.h	995;"	d
+HAVE_SYS_UN_H	config.h	998;"	d
+HAVE_TCGETPGRP	config.h	1001;"	d
+HAVE_TCSENDBREAK	config.h	1004;"	d
+HAVE_TIME	config.h	1007;"	d
+HAVE_TIME_H	config.h	1010;"	d
+HAVE_TRUNCATE	config.h	1022;"	d
+HAVE_TTYENT_H	config.h	1025;"	d
+HAVE_TV_IN_UTMP	config.h	1028;"	d
+HAVE_TV_IN_UTMPX	config.h	1031;"	d
+HAVE_TYPE_IN_UTMP	config.h	1034;"	d
+HAVE_TYPE_IN_UTMPX	config.h	1037;"	d
+HAVE_UINTXX_T	config.h	1043;"	d
+HAVE_UNISTD_H	config.h	1046;"	d
+HAVE_UNSETENV	config.h	1049;"	d
+HAVE_UNSIGNED_LONG_LONG	config.h	1052;"	d
+HAVE_UPDWTMP	config.h	1055;"	d
+HAVE_UPDWTMPX	config.h	1058;"	d
+HAVE_UTIMES	config.h	1067;"	d
+HAVE_UTIME_H	config.h	1070;"	d
+HAVE_UTMPNAME	config.h	1073;"	d
+HAVE_UTMPXNAME	config.h	1076;"	d
+HAVE_UTMPX_H	config.h	1079;"	d
+HAVE_UTMP_H	config.h	1082;"	d
+HAVE_U_CHAR	config.h	1085;"	d
+HAVE_U_INT	config.h	1088;"	d
+HAVE_U_INT64_T	config.h	1091;"	d
+HAVE_U_INTXX_T	config.h	1094;"	d
+HAVE_VASPRINTF	config.h	1097;"	d
+HAVE_VA_COPY	config.h	1100;"	d
+HAVE_VHANGUP	config.h	1103;"	d
+HAVE_VSNPRINTF	config.h	1109;"	d
+HAVE_WAITPID	config.h	1112;"	d
+HAVE__GETLONG	config.h	1115;"	d
+HAVE__GETSHORT	config.h	1121;"	d
+HAVE__RES_EXTERN	config.h	1124;"	d
+HAVE___FUNCTION__	config.h	1133;"	d
+HAVE___PROGNAME	config.h	1136;"	d
+HAVE___VA_COPY	config.h	1142;"	d
+HAVE___func__	config.h	1145;"	d
+Handle	sftp-server.c	/^struct Handle {$/;"	s	file:
+Handle	sftp-server.c	/^typedef struct Handle Handle;$/;"	t	typeref:struct:Handle	file:
+INSTALL	Makefile	/^INSTALL=\/usr\/bin\/install -c$/;"	m
+INTERNAL_SFTP_NAME	servconf.h	41;"	d
+IPV4_IN_IPV6	config.h	1154;"	d
+KEX2_EXCHANGE_H	do_kex2_exchange.h	2;"	d
+KEX_COOKIE_LEN	do_kex2_exchange.c	56;"	d	file:
+KbdintAuthctxt	auth2-chall.c	/^struct KbdintAuthctxt$/;"	s	file:
+KbdintAuthctxt	auth2-chall.c	/^typedef struct KbdintAuthctxt KbdintAuthctxt;$/;"	t	typeref:struct:KbdintAuthctxt	file:
+KbdintDevice	auth.h	/^struct KbdintDevice$/;"	s
+KbdintDevice	auth.h	/^typedef struct KbdintDevice KbdintDevice;$/;"	t	typeref:struct:KbdintDevice
+LD	Makefile	/^LD=gcc$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-L. -L\/usr\/local\/ssl\/lib\/ -L..\/ -L..\/openbsd-compat\/ $/;"	m
+LIBCOMPAT	Makefile	/^LIBCOMPAT=..\/openbsd-compat\/libopenbsd-compat.a$/;"	m
+LIBEDIT	Makefile	/^LIBEDIT=$/;"	m
+LIBS	Makefile	/^LIBS=-lresolv -lcrypto -lutil -lz -lnsl  -ldl -lcrypt$/;"	m
+LINFO_HOSTSIZE	loginrec.h	60;"	d
+LINFO_LINESIZE	loginrec.h	58;"	d
+LINFO_NAMESIZE	loginrec.h	59;"	d
+LINFO_PROGSIZE	loginrec.h	57;"	d
+LINK_OPNOTSUPP_ERRNO	config.h	1167;"	d
+LL_DIR	loginrec.c	1460;"	d	file:
+LL_FILE	loginrec.c	1459;"	d	file:
+LL_OTHER	loginrec.c	1461;"	d	file:
+LOCKED_PASSWD_PREFIX	config.h	1176;"	d
+LOGIN_PROGRAM_FALLBACK	config.h	1195;"	d
+LTYPE_LOGIN	loginrec.h	53;"	d
+LTYPE_LOGOUT	loginrec.h	54;"	d
+MAX_ACCEPT_ENV	servconf.h	27;"	d
+MAX_ALLOW_GROUPS	servconf.h	23;"	d
+MAX_ALLOW_USERS	servconf.h	21;"	d
+MAX_DENY_GROUPS	servconf.h	24;"	d
+MAX_DENY_USERS	servconf.h	22;"	d
+MAX_HOSTKEYS	servconf.h	26;"	d
+MAX_LISTEN_SOCKS	sshd.c	184;"	d	file:
+MAX_MATCH_GROUPS	servconf.h	28;"	d
+MAX_PORTS	servconf.h	19;"	d
+MAX_SUBSYSTEMS	servconf.h	25;"	d
+MIN_SIZEOF	loginrec.c	216;"	d	file:
+M_CP_INTOPT	servconf.c	1352;"	d	file:
+M_CP_INTOPT	servconf.c	1399;"	d	file:
+M_CP_STROPT	servconf.c	1356;"	d	file:
+M_CP_STROPT	servconf.c	1400;"	d	file:
+OPENSSL_PRNG_ONLY	config.h	1225;"	d
+O_NOCTTY	sshd.c	132;"	d	file:
+O_NOCTTY	sshpty.c	46;"	d	file:
+PACKAGE_BUGREPORT	config.h	1228;"	d
+PACKAGE_NAME	config.h	1231;"	d
+PACKAGE_STRING	config.h	1234;"	d
+PACKAGE_TARNAME	config.h	1237;"	d
+PACKAGE_VERSION	config.h	1240;"	d
+PAM_MSG_MEMBER	auth-pam.c	77;"	d	file:
+PAM_MSG_MEMBER	auth-pam.c	79;"	d	file:
+PAM_TTY_KLUDGE	config.h	1247;"	d
+PAPPEND	sftp-server.c	146;"	d	file:
+PATHS	Makefile	/^PATHS= -DSSHDIR=\\"$(sysconfdir)\\" \\$/;"	m
+PATHSUBS	Makefile	/^PATHSUBS	= \\$/;"	m
+PERL	Makefile	/^PERL=\/usr\/bin\/perl$/;"	m
+PERMIT_FORCED_ONLY	servconf.h	33;"	d
+PERMIT_NO	servconf.h	32;"	d
+PERMIT_NOT_SET	servconf.h	31;"	d
+PERMIT_NO_PASSWD	servconf.h	34;"	d
+PERMIT_YES	servconf.h	35;"	d
+PRIVSEP	auth.h	45;"	d
+PRIVSEP	kexdhs.c	48;"	d	file:
+PRIVSEP	kexgexs.c	56;"	d	file:
+PRIVSEP_PATH	Makefile	/^PRIVSEP_PATH=\/var\/empty$/;"	m
+RAND_HELPER	Makefile	/^RAND_HELPER=$(libexecdir)\/ssh-rand-helper$/;"	m
+RANLIB	Makefile	/^RANLIB=ranlib$/;"	m
+REEXEC_CONFIG_PASS_FD	sshd.c	138;"	d	file:
+REEXEC_DEVCRYPTO_RESERVED_FD	sshd.c	136;"	d	file:
+REEXEC_MIN_FREE_FD	sshd.c	139;"	d	file:
+REEXEC_STARTUP_PIPE_FD	sshd.c	137;"	d	file:
+SED	Makefile	/^SED=\/bin\/sed$/;"	m
+SERVCONF_H	servconf.h	17;"	d
+SERVERLOOP_H	serverloop.h	22;"	d
+SESSION_H	session.h	27;"	d
+SFTP_MAX_MSG_LENGTH	sftp-common.h	29;"	d
+SFTP_SERVER	Makefile	/^SFTP_SERVER=$(libexecdir)\/sftp-server$/;"	m
+SIZEOF_CHAR	config.h	1265;"	d
+SIZEOF_INT	config.h	1268;"	d
+SIZEOF_LONG_INT	config.h	1271;"	d
+SIZEOF_LONG_LONG_INT	config.h	1274;"	d
+SIZEOF_SHORT_INT	config.h	1277;"	d
+SKEY_PROMPT	auth.h	195;"	d
+SNPRINTF_CONST	config.h	1289;"	d
+SPT_TYPE	config.h	1293;"	d
+SSHCFG_ALL	servconf.c	311;"	d	file:
+SSHCFG_GLOBAL	servconf.c	309;"	d	file:
+SSHCFG_MATCH	servconf.c	310;"	d	file:
+SSHDLIBS	Makefile	/^SSHDLIBS=$/;"	m
+SSHDOBJS	Makefile	/^SSHDOBJS=sshd.o auth-rhosts.o auth-passwd.o auth-rsa.o auth-rh-rsa.o \\$/;"	m
+SSHD_PAM_SERVICE	auth-pam.h	31;"	d
+SSH_AUDIT_UNKNOWN	audit.h	/^	SSH_AUDIT_UNKNOWN$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_GSSAPI	audit.h	/^	SSH_AUTH_FAIL_GSSAPI,$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_HOSTBASED	audit.h	/^	SSH_AUTH_FAIL_HOSTBASED,	\/* ssh2 hostbased or ssh1 rhostsrsa *\/$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_KBDINT	audit.h	/^	SSH_AUTH_FAIL_KBDINT,	\/* keyboard-interactive or challenge-response *\/$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_NONE	audit.h	/^	SSH_AUTH_FAIL_NONE,$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_PASSWD	audit.h	/^	SSH_AUTH_FAIL_PASSWD,$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_FAIL_PUBKEY	audit.h	/^	SSH_AUTH_FAIL_PUBKEY,	\/* ssh2 pubkey or ssh1 rsa *\/$/;"	e	enum:ssh_audit_event_type
+SSH_AUTH_SUCCESS	audit.h	/^	SSH_AUTH_SUCCESS,$/;"	e	enum:ssh_audit_event_type
+SSH_CONNECTION_ABANDON	audit.h	/^	SSH_CONNECTION_ABANDON,	\/* closed without completing auth *\/$/;"	e	enum:ssh_audit_event_type
+SSH_CONNECTION_CLOSE	audit.h	/^	SSH_CONNECTION_CLOSE,	\/* closed after attempting auth or session *\/$/;"	e	enum:ssh_audit_event_type
+SSH_INVALID_USER	audit.h	/^	SSH_INVALID_USER,$/;"	e	enum:ssh_audit_event_type
+SSH_KEYSIGN	Makefile	/^SSH_KEYSIGN=$(libexecdir)\/ssh-keysign$/;"	m
+SSH_LOGIN_EXCEED_MAXTRIES	audit.h	/^	SSH_LOGIN_EXCEED_MAXTRIES,$/;"	e	enum:ssh_audit_event_type
+SSH_LOGIN_ROOT_DENIED	audit.h	/^	SSH_LOGIN_ROOT_DENIED,$/;"	e	enum:ssh_audit_event_type
+SSH_NOLOGIN	audit.h	/^	SSH_NOLOGIN,		\/* denied by \/etc\/nologin, not implemented *\/$/;"	e	enum:ssh_audit_event_type
+SSH_PRIVSEP_USER	Makefile	/^SSH_PRIVSEP_USER=sshd$/;"	m
+SSH_PRIVSEP_USER	config.h	1305;"	d
+SSH_PROGRAM	Makefile	/^SSH_PROGRAM=${exec_prefix}\/bin\/ssh$/;"	m
+SSH_SIG	session.c	2350;"	d	file:
+SSH_SIG	session.c	2364;"	d	file:
+SSH_TUN_COMPAT_AF	config.h	1308;"	d
+SSH_TUN_LINUX	config.h	1314;"	d
+SSH_TUN_PREPEND_AF	config.h	1323;"	d
+STDC_HEADERS	config.h	1326;"	d
+STRIP_OPT	Makefile	/^STRIP_OPT=-s$/;"	m
+SUBSYSTEM_EXT	session.c	140;"	d	file:
+SUBSYSTEM_INT_SFTP	session.c	141;"	d	file:
+SUBSYSTEM_NONE	session.c	139;"	d	file:
+ServerOpCodes	servconf.c	/^} ServerOpCodes;$/;"	t	typeref:enum:__anon2	file:
+ServerOptions	servconf.h	/^}       ServerOptions;$/;"	t	typeref:struct:__anon5
+Session	session.h	/^struct Session {$/;"	s
+Session	session.h	/^typedef struct Session Session;$/;"	t	typeref:struct:Session
+SetAuditFunc	audit-bsm.c	67;"	d	file:
+SetAuditFunc	audit-bsm.c	74;"	d	file:
+SetAuditFuncText	audit-bsm.c	68;"	d	file:
+SetAuditFuncText	audit-bsm.c	75;"	d	file:
+Stat	sftp-server.c	/^struct Stat {$/;"	s	file:
+Stat	sftp-server.c	/^typedef struct Stat Stat;$/;"	t	typeref:struct:Stat	file:
+TARGETS	Makefile	/^TARGETS=sshd$(EXEEXT)$/;"	m
+TTYSZ	session.h	29;"	d
+TWO_WEEKS	auth-passwd.c	66;"	d	file:
+USER_PATH	config.h	1338;"	d
+USE_BTMP	config.h	1347;"	d
+USE_PIPES	session.c	427;"	d	file:
+UTMPX_USE_LIBRARY	loginrec.c	980;"	d	file:
+UTMP_USE_LIBRARY	loginrec.c	811;"	d	file:
+WHITESPACE	servconf.c	625;"	d	file:
+XAUTH_PATH	Makefile	/^XAUTH_PATH=undefined$/;"	m
+_FILE_OFFSET_BITS	config.h	1400;"	d
+_HAVE_LOGINREC_H_	loginrec.h	2;"	d
+_MD5CRYPT_H	md5crypt.h	13;"	d
+_PATH_BTMP	config.h	1406;"	d
+_PATH_PASSWD_PROG	config.h	1409;"	d
+_PATH_SSH_PIDDIR	config.h	1412;"	d
+_SSH_AUDIT_H	audit.h	28;"	d
+_common_info	do_kex2_exchange.h	/^typedef struct _common_info {$/;"	s
+abandon_challenge_response	auth-chall.c	/^abandon_challenge_response(Authctxt *authctxt)$/;"	f
+accept_env	servconf.h	/^	char   *accept_env[MAX_ACCEPT_ENV];$/;"	m	struct:__anon5
+add_listen_addr	servconf.c	/^add_listen_addr(ServerOptions *options, char *addr, u_short port)$/;"	f	file:
+add_one_listen_addr	servconf.c	/^add_one_listen_addr(ServerOptions *options, char *addr, u_short port)$/;"	f	file:
+address_family	servconf.h	/^	int     address_family;		\/* Address family used by the server. *\/$/;"	m	struct:__anon5
+adm_forced_command	servconf.h	/^	char   *adm_forced_command;$/;"	m	struct:__anon5
+after_authentication	do_kex2_exchange.h	/^	int	after_authentication;$/;"	m	struct:_common_info
+allow_agent_forwarding	servconf.h	/^	int	allow_agent_forwarding;$/;"	m	struct:__anon5
+allow_groups	servconf.h	/^	char   *allow_groups[MAX_ALLOW_GROUPS];$/;"	m	struct:__anon5
+allow_severity	sshd.c	/^int allow_severity;$/;"	v
+allow_tcp_forwarding	servconf.h	/^	int	allow_tcp_forwarding;$/;"	m	struct:__anon5
+allow_users	servconf.h	/^	char   *allow_users[MAX_ALLOW_USERS];$/;"	m	struct:__anon5
+allowed_user	auth.c	/^allowed_user(struct passwd * pw)$/;"	f
+as	auth.h	/^	auth_session_t	*as;$/;"	m	struct:Authctxt
+atime	sftp-common.h	/^	u_int32_t	atime;$/;"	m	struct:Attrib
+attempt	auth.h	/^	int		 attempt;$/;"	m	struct:Authctxt
+attrib	sftp-server.c	/^	Attrib attrib;$/;"	m	struct:Stat	file:
+attrib_clear	sftp-common.c	/^attrib_clear(Attrib *a)$/;"	f
+attrib_to_stat	sftp-common.c	/^attrib_to_stat(const Attrib *a, struct stat *st)$/;"	f
+attrib_to_tv	sftp-server.c	/^attrib_to_tv(const Attrib *a)$/;"	f	file:
+audit_classify_auth	audit.c	/^audit_classify_auth(const char *method)$/;"	f
+audit_connection_from	audit-bsm.c	/^audit_connection_from(const char *host, int port)$/;"	f
+audit_connection_from	audit.c	/^audit_connection_from(const char *host, int port)$/;"	f
+audit_event	audit-bsm.c	/^audit_event(ssh_audit_event_t event)$/;"	f
+audit_event	audit.c	/^audit_event(ssh_audit_event_t event)$/;"	f
+audit_event_lookup	audit.c	/^audit_event_lookup(ssh_audit_event_t ev)$/;"	f
+audit_run_command	audit-bsm.c	/^audit_run_command(const char *command)$/;"	f
+audit_run_command	audit.c	/^audit_run_command(const char *command)$/;"	f
+audit_session_close	audit-bsm.c	/^audit_session_close(const char *ttyn)$/;"	f
+audit_session_close	audit.c	/^audit_session_close(const char *ttyn)$/;"	f
+audit_session_open	audit-bsm.c	/^audit_session_open(const char *ttyn)$/;"	f
+audit_session_open	audit.c	/^audit_session_open(const char *ttyn)$/;"	f
+audit_username	audit.c	/^audit_username(void)$/;"	f
+aug_get_machine	audit-bsm.c	/^aug_get_machine(char *host, u_int32_t *addr, u_int32_t *type)$/;"	f	file:
+auth1_methods	auth1.c	/^const struct AuthMethod1 auth1_methods[] = {$/;"	v	typeref:struct:AuthMethod1
+auth1_process_password	auth1.c	/^auth1_process_password(Authctxt *authctxt, char *info, size_t infolen)$/;"	f	file:
+auth1_process_rhosts_rsa	auth1.c	/^auth1_process_rhosts_rsa(Authctxt *authctxt, char *info, size_t infolen)$/;"	f	file:
+auth1_process_rsa	auth1.c	/^auth1_process_rsa(Authctxt *authctxt, char *info, size_t infolen)$/;"	f	file:
+auth1_process_tis_challenge	auth1.c	/^auth1_process_tis_challenge(Authctxt *authctxt, char *info, size_t infolen)$/;"	f	file:
+auth1_process_tis_response	auth1.c	/^auth1_process_tis_response(Authctxt *authctxt, char *info, size_t infolen)$/;"	f	file:
+auth2_challenge	auth2-chall.c	/^auth2_challenge(Authctxt *authctxt, char *devs)$/;"	f
+auth2_challenge_start	auth2-chall.c	/^auth2_challenge_start(Authctxt *authctxt)$/;"	f	file:
+auth2_challenge_stop	auth2-chall.c	/^auth2_challenge_stop(Authctxt *authctxt)$/;"	f
+auth2_read_banner	auth2.c	/^auth2_read_banner(void)$/;"	f
+auth_clear_options	auth-options.c	/^auth_clear_options(void)$/;"	f
+auth_data	session.h	/^	char	*auth_data;$/;"	m	struct:Session
+auth_debug	auth.c	/^Buffer auth_debug;$/;"	v
+auth_debug_add	auth.c	/^auth_debug_add(const char *fmt,...)$/;"	f
+auth_debug_init	auth.c	/^int auth_debug_init;$/;"	v
+auth_debug_reset	auth.c	/^auth_debug_reset(void)$/;"	f
+auth_debug_send	auth.c	/^auth_debug_send(void)$/;"	f
+auth_display	session.h	/^	char	*auth_display;$/;"	m	struct:Session
+auth_input_request_forwarding	session.c	/^auth_input_request_forwarding(struct passwd * pw)$/;"	f	file:
+auth_krb5_password	auth-krb5.c	/^auth_krb5_password(Authctxt *authctxt, const char *password)$/;"	f
+auth_log	auth.c	/^auth_log(Authctxt *authctxt, int authenticated, char *method, char *info)$/;"	f
+auth_openkeyfile	auth.c	/^auth_openkeyfile(const char *file, struct passwd *pw, int strict_modes)$/;"	f
+auth_parse_options	auth-options.c	/^auth_parse_options(struct passwd *pw, char *opts, char *file, u_long linenum)$/;"	f
+auth_password	auth-passwd.c	/^auth_password(Authctxt *authctxt, const char *password)$/;"	f
+auth_proto	session.h	/^	char	*auth_proto;$/;"	m	struct:Session
+auth_rhosts	auth-rhosts.c	/^auth_rhosts(struct passwd *pw, const char *client_user)$/;"	f
+auth_rhosts2	auth-rhosts.c	/^auth_rhosts2(struct passwd *pw, const char *client_user, const char *hostname,$/;"	f
+auth_rhosts2_raw	auth-rhosts.c	/^auth_rhosts2_raw(struct passwd *pw, const char *client_user, const char *hostname,$/;"	f	file:
+auth_rhosts_rsa	auth-rh-rsa.c	/^auth_rhosts_rsa(Authctxt *authctxt, char *cuser, Key *client_host_key)$/;"	f
+auth_rhosts_rsa_key_allowed	auth-rh-rsa.c	/^auth_rhosts_rsa_key_allowed(struct passwd *pw, char *cuser, char *chost,$/;"	f
+auth_root_allowed	auth.c	/^auth_root_allowed(char *method)$/;"	f
+auth_rsa	auth-rsa.c	/^auth_rsa(Authctxt *authctxt, BIGNUM *client_n)$/;"	f
+auth_rsa_challenge_dialog	auth-rsa.c	/^auth_rsa_challenge_dialog(Key *key)$/;"	f
+auth_rsa_generate_challenge	auth-rsa.c	/^auth_rsa_generate_challenge(Key *key)$/;"	f
+auth_rsa_key_allowed	auth-rsa.c	/^auth_rsa_key_allowed(struct passwd *pw, BIGNUM *client_n, Key **rkey)$/;"	f
+auth_rsa_verify_response	auth-rsa.c	/^auth_rsa_verify_response(Key *key, BIGNUM *challenge, u_char response[16])$/;"	f
+auth_shadow_acctexpired	auth-shadow.c	/^auth_shadow_acctexpired(struct spwd *spw)$/;"	f
+auth_shadow_pwexpired	auth-shadow.c	/^auth_shadow_pwexpired(Authctxt *ctxt)$/;"	f
+auth_sock_cleanup_proc	session.c	/^auth_sock_cleanup_proc(struct passwd *pw)$/;"	f	file:
+auth_sock_dir	session.c	/^static char *auth_sock_dir = NULL;$/;"	v	file:
+auth_sock_name	session.c	/^static char *auth_sock_name = NULL;$/;"	v	file:
+authctxt	session.h	/^	Authctxt *authctxt;$/;"	m	struct:Session
+authenticated	auth.h	/^	int		 authenticated;	\/* authenticated and alarms cancelled *\/$/;"	m	struct:Authctxt
+authmethod_lookup	auth2.c	/^authmethod_lookup(const char *name)$/;"	f	file:
+authmethods	auth2.c	/^Authmethod *authmethods[] = {$/;"	v
+authmethods_get	auth2.c	/^authmethods_get(void)$/;"	f	file:
+authorized_keys_file	auth.c	/^authorized_keys_file(struct passwd *pw)$/;"	f
+authorized_keys_file	servconf.h	/^	char   *authorized_keys_file;	\/* File containing public keys *\/$/;"	m	struct:__anon5
+authorized_keys_file2	auth.c	/^authorized_keys_file2(struct passwd *pw)$/;"	f
+authorized_keys_file2	servconf.h	/^	char   *authorized_keys_file2;$/;"	m	struct:__anon5
+badpw	auth-pam.c	/^static char badpw[] = "\\b\\n\\r\\177INCORRECT";$/;"	v	file:
+banner	servconf.h	/^	char   *banner;			\/* SSH-2 banner message *\/$/;"	m	struct:__anon5
+bindir	Makefile	/^bindir=${exec_prefix}\/bin$/;"	m
+blocks	do_kex2_exchange.h	/^	u_int64_t blocks;$/;"	m	struct:p_state
+bsdauth_device	auth-bsdauth.c	/^KbdintDevice bsdauth_device = {$/;"	v
+bsdauth_free_ctx	auth-bsdauth.c	/^bsdauth_free_ctx(void *ctx)$/;"	f	file:
+bsdauth_init_ctx	auth-bsdauth.c	/^bsdauth_init_ctx(Authctxt *authctxt)$/;"	f	file:
+bsdauth_query	auth-bsdauth.c	/^bsdauth_query(void *ctx, char **name, char **infotxt,$/;"	f
+bsdauth_respond	auth-bsdauth.c	/^bsdauth_respond(void *ctx, u_int numresponses, char **responses)$/;"	f
+bsm_audit_bad_login	audit-bsm.c	/^bsm_audit_bad_login(const char *what)$/;"	f	file:
+bsm_audit_record	audit-bsm.c	/^bsm_audit_record(int typ, char *string, au_event_t event_no)$/;"	f	file:
+bsm_audit_session_setup	audit-bsm.c	/^bsm_audit_session_setup(void)$/;"	f	file:
+buffer_high	serverloop.c	/^static u_int buffer_high;	\/* "Soft" max buffer size. *\/$/;"	v	file:
+bytes	do_kex2_exchange.h	/^	u_int64_t bytes;$/;"	m	struct:p_state
+bytes_read	sftp-server.c	/^	u_int64_t bytes_read, bytes_write;$/;"	m	struct:Handle	file:
+bytes_write	sftp-server.c	/^	u_int64_t bytes_read, bytes_write;$/;"	m	struct:Handle	file:
+cfg	sshd.c	/^Buffer cfg;$/;"	v
+challenge_response_authentication	servconf.h	/^	int     challenge_response_authentication;$/;"	m	struct:__anon5
+chanid	session.h	/^	int	chanid;$/;"	m	struct:Session
+check_key_in_hostfiles	auth.c	/^check_key_in_hostfiles(struct passwd *pw, Key *key, const char *host,$/;"	f
+check_quietlogin	session.c	/^check_quietlogin(Session *s, const char *command)$/;"	f
+check_rhosts_file	auth-rhosts.c	/^check_rhosts_file(const char *filename, const char *hostname,$/;"	f	file:
+child_close_fds	session.c	/^child_close_fds(void)$/;"	f	file:
+child_get_env	session.c	/^child_get_env(char **env, const char *name)$/;"	f	file:
+child_set_env	session.c	/^child_set_env(char ***envp, u_int *envsizep, const char *name,$/;"	f
+child_terminated	serverloop.c	/^static volatile sig_atomic_t child_terminated = 0;	\/* The child has terminated. *\/$/;"	v	file:
+chroot_directory	servconf.h	/^	char   *chroot_directory;$/;"	m	struct:__anon5
+ciphers	servconf.h	/^	char   *ciphers;	\/* Supported SSH2 ciphers. *\/$/;"	m	struct:__anon5
+cleanup_ctxt	auth-pam.c	/^static struct pam_ctxt *cleanup_ctxt;$/;"	v	typeref:struct:pam_ctxt	file:
+cleanup_exit	sshd.c	/^cleanup_exit(int i)$/;"	f
+client_addr	sftp-server.c	/^char *client_addr = NULL;$/;"	v
+client_alive_check	serverloop.c	/^client_alive_check(void)$/;"	f	file:
+client_alive_count_max	servconf.h	/^	int	client_alive_count_max;	\/*$/;"	m	struct:__anon5
+client_alive_interval	servconf.h	/^	int	client_alive_interval;	\/*$/;"	m	struct:__anon5
+client_user	auth1.c	/^static char *client_user = NULL;    \/* Used to fill in remote user for PAM *\/$/;"	v	file:
+client_version_string	do_kex2_exchange.h	/^	char	*client_version_string;$/;"	m	struct:_common_info
+client_version_string	sshd.c	/^char *client_version_string = NULL;$/;"	v
+close_listen_socks	sshd.c	/^close_listen_socks(void)$/;"	f	file:
+close_startup_pipes	sshd.c	/^close_startup_pipes(void)$/;"	f	file:
+col	session.h	/^	u_int	row, col, xpixel, ypixel;$/;"	m	struct:Session
+collect_children	serverloop.c	/^collect_children(void)$/;"	f	file:
+common_info	do_kex2_exchange.h	/^} common_info;$/;"	t	typeref:struct:_common_info
+compat20	do_kex2_exchange.h	/^	int	compat20;$/;"	m	struct:_common_info
+compression	servconf.h	/^	int     compression;	\/* If true, compression is allowed *\/$/;"	m	struct:__anon5
+config_file_name	sshd.c	/^char *config_file_name = _PATH_SERVER_CONFIG_FILE;$/;"	v
+connection_closed	serverloop.c	/^static int connection_closed = 0;	\/* Connection to client closed. *\/$/;"	v	file:
+connection_in	serverloop.c	/^static int connection_in;	\/* Connection to client (input). *\/$/;"	v	file:
+connection_out	serverloop.c	/^static int connection_out;	\/* Connection to client (output). *\/$/;"	v	file:
+construct_utmp	loginrec.c	/^construct_utmp(struct logininfo *li,$/;"	f
+construct_utmpx	loginrec.c	/^construct_utmpx(struct logininfo *li, struct utmpx *utx)$/;"	f
+copy_environment	session.c	/^copy_environment(char **source, char ***env, u_int *envsize)$/;"	f
+copy_set_server_options	servconf.c	/^copy_set_server_options(ServerOptions *dst, ServerOptions *src, int preauth)$/;"	f
+ctxt	auth2-chall.c	/^	void *ctxt;$/;"	m	struct:KbdintAuthctxt	file:
+custom_environment	auth-options.c	/^struct envstring *custom_environment = NULL;$/;"	v	typeref:struct:envstring
+datadir	Makefile	/^datadir=${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir=${prefix}\/share$/;"	m
+debug_flag	sshd.c	/^int debug_flag = 0;$/;"	v
+decode_attrib	sftp-common.c	/^decode_attrib(Buffer *b)$/;"	f
+demote_sensitive_data	sshd.c	/^demote_sensitive_data(void)$/;"	f
+deny_groups	servconf.h	/^	char   *deny_groups[MAX_DENY_GROUPS];$/;"	m	struct:__anon5
+deny_severity	sshd.c	/^int deny_severity;$/;"	v
+deny_users	servconf.h	/^	char   *deny_users[MAX_DENY_USERS];$/;"	m	struct:__anon5
+destroy_sensitive_data	sshd.c	/^destroy_sensitive_data(void)$/;"	f
+device	auth-chall.c	/^static KbdintDevice *device;$/;"	v	file:
+device	auth2-chall.c	/^	KbdintDevice *device;$/;"	m	struct:KbdintAuthctxt	file:
+devices	auth2-chall.c	/^	char *devices;$/;"	m	struct:KbdintAuthctxt	file:
+devices	auth2-chall.c	/^KbdintDevice *devices[] = {$/;"	v
+dirp	sftp-server.c	/^	DIR *dirp;$/;"	m	struct:Handle	file:
+disable_forwarding	auth-passwd.c	/^disable_forwarding(void)$/;"	f
+display	session.h	/^	char	*display;$/;"	m	struct:Session
+display_loginmsg	session.c	/^display_loginmsg(void)$/;"	f	file:
+display_number	session.h	/^	u_int	display_number;$/;"	m	struct:Session
+do_authenticated	session.c	/^do_authenticated(Authctxt *authctxt)$/;"	f
+do_authenticated1	session.c	/^do_authenticated1(Authctxt *authctxt)$/;"	f	file:
+do_authenticated2	session.c	/^do_authenticated2(Authctxt *authctxt)$/;"	f	file:
+do_authentication	auth1.c	/^do_authentication(Authctxt *authctxt)$/;"	f
+do_authentication2	auth2.c	/^do_authentication2(Authctxt *authctxt)$/;"	f
+do_authloop	auth1.c	/^do_authloop(Authctxt *authctxt)$/;"	f	file:
+do_child	session.c	/^do_child(Session *s, const char *command)$/;"	f
+do_cleanup	session.c	/^do_cleanup(Authctxt *authctxt)$/;"	f
+do_exec	session.c	/^do_exec(Session *s, const char *command)$/;"	f
+do_exec_no_pty	session.c	/^do_exec_no_pty(Session *s, const char *command)$/;"	f
+do_exec_pty	session.c	/^do_exec_pty(Session *s, const char *command)$/;"	f
+do_kex2_exchange	do_kex2_exchange.c	/^void do_kex2_exchange()$/;"	f
+do_login	session.c	/^do_login(Session *s, const char *command)$/;"	f
+do_motd	session.c	/^do_motd(void)$/;"	f
+do_nologin	session.c	/^do_nologin(struct passwd *pw)$/;"	f	file:
+do_pam_account	auth-pam.c	/^do_pam_account(void)$/;"	f
+do_pam_chauthtok	auth-pam.c	/^do_pam_chauthtok(void)$/;"	f
+do_pam_putenv	auth-pam.c	/^do_pam_putenv(char *name, char *value)$/;"	f
+do_pam_session	auth-pam.c	/^do_pam_session(void)$/;"	f
+do_pam_set_tty	auth-pam.c	/^do_pam_set_tty(const char *tty)$/;"	f
+do_pam_setcred	auth-pam.c	/^do_pam_setcred(int init)$/;"	f
+do_pre_login	session.c	/^do_pre_login(Session *s)$/;"	f	file:
+do_pwchange	session.c	/^do_pwchange(Session *s)$/;"	f	file:
+do_rc_files	session.c	/^do_rc_files(Session *s, const char *shell)$/;"	f	file:
+do_setup_env	session.c	/^do_setup_env(Session *s, const char *shell)$/;"	f	file:
+do_setusercontext	session.c	/^do_setusercontext(struct passwd *pw)$/;"	f
+do_ssh1_kex	sshd.c	/^do_ssh1_kex(void)$/;"	f	file:
+drain_output	serverloop.c	/^drain_output(void)$/;"	f	file:
+drop_connection	sshd.c	/^drop_connection(int startups)$/;"	f	file:
+dump_cfg_fmtint	servconf.c	/^dump_cfg_fmtint(ServerOpCodes code, int val)$/;"	f	file:
+dump_cfg_int	servconf.c	/^dump_cfg_int(ServerOpCodes code, int val)$/;"	f	file:
+dump_cfg_strarray	servconf.c	/^dump_cfg_strarray(ServerOpCodes code, u_int count, char **vals)$/;"	f	file:
+dump_cfg_string	servconf.c	/^dump_cfg_string(ServerOpCodes code, const char *val)$/;"	f	file:
+dump_config	servconf.c	/^dump_config(ServerOptions *o)$/;"	f
+enabled	auth.h	/^	int	*enabled;$/;"	m	struct:Authmethod
+enabled	auth1.c	/^	int *enabled;$/;"	m	struct:AuthMethod1	file:
+encode_attrib	sftp-common.c	/^encode_attrib(Buffer *b, const Attrib *a)$/;"	f
+env	session.h	/^	} *env;$/;"	m	struct:Session	typeref:struct:Session::__anon6
+envstring	auth-options.h	/^struct envstring {$/;"	s
+errno_to_portable	sftp-server.c	/^errno_to_portable(int unixerrno)$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix=${prefix}$/;"	m
+exit	loginrec.h	/^	int        exit;                        \/* process exit status *\/$/;"	m	struct:logininfo
+expand_authorized_keys	auth.c	/^expand_authorized_keys(const char *filename, struct passwd *pw)$/;"	f	file:
+failures	auth.h	/^	int		 failures;$/;"	m	struct:Authctxt
+fakepw	auth.c	/^fakepw(void)$/;"	f
+fd	sftp-server.c	/^	int fd;$/;"	m	struct:Handle	file:
+fderr	serverloop.c	/^static int fderr;		\/* Descriptor for stderr.  May be -1. *\/$/;"	v	file:
+fderr_eof	serverloop.c	/^static int fderr_eof = 0;	\/* EOF encountered readung from fderr. *\/$/;"	v	file:
+fdin	serverloop.c	/^static int fdin;		\/* Descriptor for stdin (for writing) *\/$/;"	v	file:
+fdin_is_tty	serverloop.c	/^static int fdin_is_tty = 0;	\/* fdin points to a tty. *\/$/;"	v	file:
+fdout	serverloop.c	/^static int fdout;		\/* Descriptor for stdout (for reading);$/;"	v	file:
+fdout_bytes	serverloop.c	/^static long fdout_bytes = 0;	\/* Number of stdout bytes read from program. *\/$/;"	v	file:
+fdout_eof	serverloop.c	/^static int fdout_eof = 0;	\/* EOF encountered reading from fdout. *\/$/;"	v	file:
+fetch_pam_child_environment	auth-pam.c	/^fetch_pam_child_environment(void)$/;"	f
+fetch_pam_environment	auth-pam.c	/^fetch_pam_environment(void)$/;"	f
+fill_default_server_options	servconf.c	/^fill_default_server_options(ServerOptions *options)$/;"	f
+finish_pam	auth-pam.c	/^finish_pam(void)$/;"	f
+first_unused_handle	sftp-server.c	/^int first_unused_handle = -1;$/;"	v
+flags	servconf.c	/^	u_int flags;$/;"	m	struct:__anon3	file:
+flags	sftp-common.h	/^	u_int32_t	flags;$/;"	m	struct:Attrib
+flags_from_portable	sftp-server.c	/^flags_from_portable(int pflags)$/;"	f	file:
+fmt_intarg	servconf.c	/^fmt_intarg(ServerOpCodes code, int val)$/;"	f	file:
+force_pwchange	auth.h	/^	int		 force_pwchange;$/;"	m	struct:Authctxt
+forced_command	auth-options.c	/^char *forced_command = NULL;$/;"	v
+forced_tun_device	auth-options.c	/^int forced_tun_device = -1;$/;"	v
+free_ctx	auth.h	/^	void	(*free_ctx)(void *ctx);$/;"	m	struct:KbdintDevice
+free_pam_environment	auth-pam.c	/^free_pam_environment(char **env)$/;"	f
+fx2txt	sftp-common.c	/^fx2txt(int status)$/;"	f
+g_data	do_kex2_exchange.c	/^common_info	g_data;$/;"	v
+ga_free	groupaccess.c	/^ga_free(void)$/;"	f
+ga_init	groupaccess.c	/^ga_init(const char *user, gid_t base)$/;"	f
+ga_match	groupaccess.c	/^ga_match(char * const *groups, int n)$/;"	f
+ga_match_pattern_list	groupaccess.c	/^ga_match_pattern_list(const char *group_pattern)$/;"	f
+gateway_ports	servconf.h	/^	int     gateway_ports;	\/* If true, allow remote connects to forwarded ports. *\/$/;"	m	struct:__anon5
+generate_ephemeral_server_key	sshd.c	/^generate_ephemeral_server_key(void)$/;"	f	file:
+get_attrib	sftp-server.c	/^get_attrib(void)$/;"	f	file:
+get_authname	auth1.c	/^get_authname(int type)$/;"	f	file:
+get_challenge	auth-chall.c	/^get_challenge(Authctxt *authctxt)$/;"	f
+get_handle	sftp-server.c	/^get_handle(void)$/;"	f	file:
+get_hostkey_by_index	do_kex2_exchange.c	/^get_hostkey_by_index(int ind)$/;"	f
+get_hostkey_by_type	do_kex2_exchange.c	/^get_hostkey_by_type(int type)$/;"	f
+get_hostkey_index	do_kex2_exchange.c	/^get_hostkey_index(Key *key)$/;"	f
+get_int	sftp-server.c	56;"	d	file:
+get_int64	sftp-server.c	55;"	d	file:
+get_last_login_time	sshlogin.c	/^get_last_login_time(uid_t uid, const char *logname,$/;"	f
+get_string	sftp-server.c	57;"	d	file:
+getlast_entry	loginrec.c	/^getlast_entry(struct logininfo *li)$/;"	f
+getpwnamallow	auth.c	/^getpwnamallow(const char *user)$/;"	f
+gettext	audit-bsm.c	111;"	d	file:
+gid	sftp-common.h	/^	u_int32_t	gid;$/;"	m	struct:Attrib
+groups_byname	groupaccess.c	/^static char **groups_byname;$/;"	v	file:
+gss_authentication	servconf.h	/^	int     gss_authentication;	\/* If true, permit GSSAPI authentication *\/$/;"	m	struct:__anon5
+gss_cleanup_creds	servconf.h	/^	int     gss_cleanup_creds;	\/* If true, destroy cred cache on logout *\/$/;"	m	struct:__anon5
+gssapi_client	gss-serv.c	/^static ssh_gssapi_client gssapi_client =$/;"	v	file:
+gssapi_kerberos_mech	gss-serv-krb5.c	/^ssh_gssapi_mech gssapi_kerberos_mech = {$/;"	v
+gssapi_null_mech	gss-serv.c	/^ssh_gssapi_mech gssapi_null_mech =$/;"	v
+handle_bytes_read	sftp-server.c	/^handle_bytes_read(int handle)$/;"	f	file:
+handle_bytes_write	sftp-server.c	/^handle_bytes_write(int handle)$/;"	f	file:
+handle_close	sftp-server.c	/^handle_close(int handle)$/;"	f	file:
+handle_from_string	sftp-server.c	/^handle_from_string(const char *handle, u_int hlen)$/;"	f	file:
+handle_is_ok	sftp-server.c	/^handle_is_ok(int i, int type)$/;"	f	file:
+handle_log_close	sftp-server.c	/^handle_log_close(int handle, char *emsg)$/;"	f	file:
+handle_log_exit	sftp-server.c	/^handle_log_exit(void)$/;"	f	file:
+handle_new	sftp-server.c	/^handle_new(int use, const char *name, int fd, DIR *dirp)$/;"	f	file:
+handle_to_dir	sftp-server.c	/^handle_to_dir(int handle)$/;"	f	file:
+handle_to_fd	sftp-server.c	/^handle_to_fd(int handle)$/;"	f	file:
+handle_to_name	sftp-server.c	/^handle_to_name(int handle)$/;"	f	file:
+handle_to_string	sftp-server.c	/^handle_to_string(int handle, char **stringp, int *hlenp)$/;"	f	file:
+handle_unused	sftp-server.c	/^static void handle_unused(int i)$/;"	f	file:
+handle_update_read	sftp-server.c	/^handle_update_read(int handle, ssize_t bytes)$/;"	f	file:
+handle_update_write	sftp-server.c	/^handle_update_write(int handle, ssize_t bytes)$/;"	f	file:
+handles	sftp-server.c	/^Handle *handles = NULL;$/;"	v
+have_ssh1_key	do_kex2_exchange.c	/^	int     have_ssh1_key;$/;"	m	struct:__anon1	file:
+have_ssh1_key	sshd.c	/^	int	have_ssh1_key;$/;"	m	struct:__anon8	file:
+have_ssh2_key	do_kex2_exchange.c	/^	int     have_ssh2_key;$/;"	m	struct:__anon1	file:
+have_ssh2_key	sshd.c	/^	int	have_ssh2_key;$/;"	m	struct:__anon8	file:
+host_key_files	servconf.h	/^	char   *host_key_files[MAX_HOSTKEYS];	\/* Files containing host keys. *\/$/;"	m	struct:__anon5
+host_keys	do_kex2_exchange.c	/^	Key     **host_keys;            \/* all private host keys *\/$/;"	m	struct:__anon1	file:
+host_keys	sshd.c	/^	Key	**host_keys;		\/* all private host keys *\/$/;"	m	struct:__anon8	file:
+hostaddr	loginrec.h	/^	union login_netinfo hostaddr;       \/* caller's host address(es) *\/$/;"	m	struct:logininfo	typeref:union:logininfo::login_netinfo
+hostbased_authentication	servconf.h	/^	int     hostbased_authentication;	\/* If true, permit ssh2 hostbased auth *\/$/;"	m	struct:__anon5
+hostbased_key_allowed	auth2-hostbased.c	/^hostbased_key_allowed(struct passwd *pw, const char *cuser, char *chost,$/;"	f
+hostbased_uses_name_from_packet_only	servconf.h	/^	int     hostbased_uses_name_from_packet_only; \/* experimental *\/$/;"	m	struct:__anon5
+hostname	loginrec.h	/^	char       hostname[LINFO_HOSTSIZE];     \/* remote hostname *\/$/;"	m	struct:logininfo
+ignore_rhosts	servconf.h	/^	int     ignore_rhosts;	\/* Ignore .rhosts and .shosts. *\/$/;"	m	struct:__anon5
+ignore_user_known_hosts	servconf.h	/^	int     ignore_user_known_hosts;	\/* Ignore ~\/.ssh\/known_hosts$/;"	m	struct:__anon5
+import_environments	auth-pam.c	/^import_environments(Buffer *b)$/;"	f	file:
+inetd_flag	sshd.c	/^int inetd_flag = 0;$/;"	v
+init_ctx	auth.h	/^	void*	(*init_ctx)(Authctxt*);$/;"	m	struct:KbdintDevice
+initialize_server_options	servconf.c	/^initialize_server_options(ServerOptions *options)$/;"	f
+input_gssapi_errtok	auth2-gss.c	/^input_gssapi_errtok(int type, u_int32_t plen, void *ctxt)$/;"	f	file:
+input_gssapi_exchange_complete	auth2-gss.c	/^input_gssapi_exchange_complete(int type, u_int32_t plen, void *ctxt)$/;"	f	file:
+input_gssapi_mic	auth2-gss.c	/^input_gssapi_mic(int type, u_int32_t plen, void *ctxt)$/;"	f	file:
+input_gssapi_token	auth2-gss.c	/^input_gssapi_token(int type, u_int32_t plen, void *ctxt)$/;"	f	file:
+input_service_request	auth2.c	/^input_service_request(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+input_userauth_info_response	auth2-chall.c	/^input_userauth_info_response(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+input_userauth_request	auth2.c	/^input_userauth_request(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+iqueue	sftp-server.c	/^Buffer iqueue;$/;"	v
+is_child	session.c	/^static int is_child = 0;$/;"	v	file:
+is_md5_salt	md5crypt.c	/^is_md5_salt(const char *salt)$/;"	f
+is_pam_session_open	auth-pam.c	/^is_pam_session_open(void)$/;"	f
+is_subsystem	session.h	/^	int	is_subsystem;$/;"	m	struct:Session
+itoa64	md5crypt.c	/^static unsigned char itoa64[] =$/;"	v	file:
+kbd_interactive_authentication	servconf.h	/^	int     kbd_interactive_authentication;	\/* If true, permit *\/$/;"	m	struct:__anon5
+kbdint_alloc	auth2-chall.c	/^kbdint_alloc(const char *devs)$/;"	f	file:
+kbdint_free	auth2-chall.c	/^kbdint_free(KbdintAuthctxt *kbdintctxt)$/;"	f	file:
+kbdint_next_device	auth2-chall.c	/^kbdint_next_device(KbdintAuthctxt *kbdintctxt)$/;"	f	file:
+kbdint_reset_device	auth2-chall.c	/^kbdint_reset_device(KbdintAuthctxt *kbdintctxt)$/;"	f	file:
+kbdintctxt	auth.h	/^	void		*kbdintctxt;$/;"	m	struct:Authctxt
+kerberos_authentication	servconf.h	/^	int     kerberos_authentication;	\/* If true, permit Kerberos$/;"	m	struct:__anon5
+kerberos_get_afs_token	servconf.h	/^	int     kerberos_get_afs_token;		\/* If true, try to get AFS token if$/;"	m	struct:__anon5
+kerberos_or_local_passwd	servconf.h	/^	int     kerberos_or_local_passwd;	\/* If true, permit kerberos$/;"	m	struct:__anon5
+kerberos_ticket_cleanup	servconf.h	/^	int     kerberos_ticket_cleanup;	\/* If true, destroy ticket$/;"	m	struct:__anon5
+kex	do_kex2_exchange.h	/^	Kex	*kex;$/;"	m	struct:_common_info
+kex_input_init	do_kex2_exchange.c	/^void kex_input_init(int type, u_int32_t seq, void *ctxt)$/;"	f
+kexdh_server	kexdhs.c	/^kexdh_server(Kex *kex)$/;"	f
+kexgex_server	kexgexs.c	/^kexgex_server(Kex *kex)$/;"	f
+key_do_regen	sshd.c	/^static volatile sig_atomic_t key_do_regen = 0;$/;"	v	file:
+key_regeneration_alarm	sshd.c	/^key_regeneration_alarm(int sig)$/;"	f	file:
+key_regeneration_time	servconf.h	/^	int     key_regeneration_time;	\/* Server key lifetime (seconds). *\/$/;"	m	struct:__anon5
+keywords	servconf.c	/^} keywords[] = {$/;"	v	typeref:struct:__anon3	file:
+krb5_ccname	auth.h	/^	char		*krb5_ccname;$/;"	m	struct:Authctxt
+krb5_cleanup_proc	auth-krb5.c	/^krb5_cleanup_proc(Authctxt *authctxt)$/;"	f
+krb5_ctx	auth.h	/^	krb5_context	 krb5_ctx;$/;"	m	struct:Authctxt
+krb5_fwd_ccache	auth.h	/^	krb5_ccache	 krb5_fwd_ccache;$/;"	m	struct:Authctxt
+krb5_init	auth-krb5.c	/^krb5_init(void *context)$/;"	f	file:
+krb5_ticket_file	auth.h	/^	char		*krb5_ticket_file;$/;"	m	struct:Authctxt
+krb5_user	auth.h	/^	krb5_principal	 krb5_user;$/;"	m	struct:Authctxt
+krb_context	gss-serv-krb5.c	/^static krb5_context krb_context = NULL;$/;"	v	file:
+last_cmd_type	do_kex2_exchange.h	/^	int	last_cmd_type;$/;"	m	struct:_common_info
+lastlog_construct	loginrec.c	/^lastlog_construct(struct logininfo *li, struct lastlog *last)$/;"	f	file:
+lastlog_filetype	loginrec.c	/^lastlog_filetype(char *filename)$/;"	f	file:
+lastlog_get_entry	loginrec.c	/^lastlog_get_entry(struct logininfo *li)$/;"	f
+lastlog_openseek	loginrec.c	/^lastlog_openseek(struct logininfo *li, int *fd, int filemode)$/;"	f	file:
+lastlog_perform_login	loginrec.c	/^lastlog_perform_login(struct logininfo *li)$/;"	f	file:
+lastlog_populate_entry	loginrec.c	/^lastlog_populate_entry(struct logininfo *li, struct lastlog *last)$/;"	f	file:
+lastlog_write_entry	loginrec.c	/^lastlog_write_entry(struct logininfo *li)$/;"	f
+launch_login	session.c	/^launch_login(struct passwd *pw, const char *hostname)$/;"	f	file:
+lc	session.c	/^login_cap_t *lc;$/;"	v
+libexecdir	Makefile	/^libexecdir=${exec_prefix}\/libexec$/;"	m
+line	loginrec.h	/^	char       line[LINFO_LINESIZE];         \/* tty\/pty name *\/$/;"	m	struct:logininfo
+line_abbrevname	loginrec.c	/^line_abbrevname(char *dst, const char *src, int dstsize)$/;"	f
+line_fullname	loginrec.c	/^line_fullname(char *dst, const char *src, u_int dstsize)$/;"	f
+line_stripname	loginrec.c	/^line_stripname(char *dst, const char *src, int dstsize)$/;"	f
+list_hostkey_types	do_kex2_exchange.c	/^list_hostkey_types(void)$/;"	f	file:
+listen_addr	servconf.h	/^	char   *listen_addr;		\/* Address on which the server listens. *\/$/;"	m	struct:__anon5
+listen_addrs	servconf.h	/^	struct addrinfo *listen_addrs;	\/* Addresses on which the server listens. *\/$/;"	m	struct:__anon5	typeref:struct:__anon5::addrinfo
+listen_socks	sshd.c	/^int listen_socks[MAX_LISTEN_SOCKS];$/;"	v
+load_server_config	servconf.c	/^load_server_config(const char *filename, Buffer *conf)$/;"	f
+log_facility	servconf.h	/^	SyslogFacility log_facility;	\/* Facility for system logging. *\/$/;"	m	struct:__anon5
+log_level	servconf.h	/^	LogLevel log_level;	\/* Level for system logging. *\/$/;"	m	struct:__anon5
+log_level	sftp-server.c	/^LogLevel log_level = SYSLOG_LEVEL_ERROR;$/;"	v
+log_stderr	sshd.c	/^int log_stderr = 0;$/;"	v
+login_alloc_entry	loginrec.c	/^logininfo *login_alloc_entry(int pid, const char *username,$/;"	f
+login_free_entry	loginrec.c	/^login_free_entry(struct logininfo *li)$/;"	f
+login_get_lastlog	loginrec.c	/^login_get_lastlog(struct logininfo *li, const int uid)$/;"	f
+login_get_lastlog_time	loginrec.c	/^login_get_lastlog_time(const int uid)$/;"	f
+login_grace_time	servconf.h	/^	int     login_grace_time;	\/* Disconnect if no auth in this time$/;"	m	struct:__anon5
+login_init_entry	loginrec.c	/^login_init_entry(struct logininfo *li, int pid, const char *username,$/;"	f
+login_login	loginrec.c	/^login_login(struct logininfo *li)$/;"	f
+login_logout	loginrec.c	/^login_logout(struct logininfo *li)$/;"	f
+login_netinfo	loginrec.h	/^union login_netinfo {$/;"	u
+login_set_addr	loginrec.c	/^login_set_addr(struct logininfo *li, const struct sockaddr *sa,$/;"	f
+login_set_current_time	loginrec.c	/^login_set_current_time(struct logininfo *li)$/;"	f
+login_utmp_only	loginrec.c	/^login_utmp_only(struct logininfo *li)$/;"	f
+login_write	loginrec.c	/^login_write(struct logininfo *li)$/;"	f
+logininfo	loginrec.h	/^struct logininfo {$/;"	s
+loginmsg	auth.h	/^	Buffer		*loginmsg;$/;"	m	struct:Authctxt
+loginmsg	sshd.c	/^Buffer loginmsg;$/;"	v
+long_name	sftp-server.c	/^	char *long_name;$/;"	m	struct:Stat	file:
+lookup_authmethod1	auth1.c	/^*lookup_authmethod1(int type)$/;"	f	file:
+lookup_opcode_name	servconf.c	/^lookup_opcode_name(ServerOpCodes code)$/;"	f	file:
+ls_file	sftp-common.c	/^ls_file(const char *name, const struct stat *st, int remote)$/;"	f
+macs	servconf.h	/^	char   *macs;		\/* Supported SSH2 macs. *\/$/;"	m	struct:__anon5
+magic	md5crypt.c	/^static char *magic = "$1$";$/;"	v	file:
+main	sshd.c	/^main(int ac, char **av)$/;"	f
+main_sigchld_handler	sshd.c	/^main_sigchld_handler(int sig)$/;"	f	file:
+make_packets_from_stderr_data	serverloop.c	/^make_packets_from_stderr_data(void)$/;"	f	file:
+make_packets_from_stdout_data	serverloop.c	/^make_packets_from_stdout_data(void)$/;"	f	file:
+mandir	Makefile	/^mandir=${datarootdir}\/man$/;"	m
+mansubdir	Makefile	/^mansubdir=man$/;"	m
+match_cfg_line	servconf.c	/^match_cfg_line(char **condition, int line, const char *user, const char *host,$/;"	f	file:
+match_cfg_line_group	servconf.c	/^match_cfg_line_group(const char *grps, int line, const char *user)$/;"	f	file:
+max_authtries	servconf.h	/^	int	max_authtries;$/;"	m	struct:__anon5
+max_sessions	servconf.h	/^	int	max_sessions;$/;"	m	struct:__anon5
+max_startups	servconf.h	/^	int	max_startups;$/;"	m	struct:__anon5
+max_startups_begin	servconf.h	/^	int	max_startups_begin;$/;"	m	struct:__anon5
+max_startups_rate	servconf.h	/^	int	max_startups_rate;$/;"	m	struct:__anon5
+md5_crypt	md5crypt.c	/^md5_crypt(const char *pw, const char *salt)$/;"	f
+method	auth1.c	/^	int (*method)(Authctxt *, char *, size_t);$/;"	m	struct:AuthMethod1	file:
+method_gssapi	auth2-gss.c	/^Authmethod method_gssapi = {$/;"	v
+method_hostbased	auth2-hostbased.c	/^Authmethod method_hostbased = {$/;"	v
+method_kbdint	auth2-kbdint.c	/^Authmethod method_kbdint = {$/;"	v
+method_none	auth2-none.c	/^Authmethod method_none = {$/;"	v
+method_passwd	auth2-passwd.c	/^Authmethod method_passwd = {$/;"	v
+method_pubkey	auth2-pubkey.c	/^Authmethod method_pubkey = {$/;"	v
+methoddata	auth.h	/^	void		*methoddata;$/;"	m	struct:Authctxt
+mm_bsdauth_device	auth-bsdauth.c	/^KbdintDevice mm_bsdauth_device = {$/;"	v
+mm_skey_device	auth-skey.c	/^KbdintDevice mm_skey_device = {$/;"	v
+mm_sshpam_device	auth-pam.c	/^KbdintDevice mm_sshpam_device = {$/;"	v
+mtime	sftp-common.h	/^	u_int32_t	mtime;$/;"	m	struct:Attrib
+name	auth.h	/^	char	*name;$/;"	m	struct:Authmethod
+name	auth.h	/^	const char *name;$/;"	m	struct:KbdintDevice
+name	auth1.c	/^	char *name;$/;"	m	struct:AuthMethod1	file:
+name	servconf.c	/^	const char *name;$/;"	m	struct:__anon3	file:
+name	session.h	/^		char	*name;$/;"	m	struct:Session::__anon6
+name	sftp-server.c	/^	char *name;$/;"	m	struct:Handle	file:
+name	sftp-server.c	/^	char *name;$/;"	m	struct:Stat	file:
+next	auth-options.h	/^	struct envstring *next;$/;"	m	struct:envstring	typeref:struct:envstring::envstring
+next_unused	session.h	/^	int	next_unused;$/;"	m	struct:Session
+next_unused	sftp-server.c	/^	int next_unused;$/;"	m	struct:Handle	file:
+ngroups	groupaccess.c	/^static int ngroups;$/;"	v	file:
+no_agent_forwarding_flag	auth-options.c	/^int no_agent_forwarding_flag = 0;$/;"	v
+no_daemon_flag	sshd.c	/^int no_daemon_flag = 0;$/;"	v
+no_more_sessions	serverloop.c	/^static int no_more_sessions = 0; \/* Disallow further sessions. *\/$/;"	v	file:
+no_port_forwarding_flag	auth-options.c	/^int no_port_forwarding_flag = 0;$/;"	v
+no_pty_flag	auth-options.c	/^int no_pty_flag = 0;$/;"	v
+no_user_rc	auth-options.c	/^int no_user_rc = 0;$/;"	v
+no_x11_forwarding_flag	auth-options.c	/^int no_x11_forwarding_flag = 0;$/;"	v
+none_enabled	auth2-none.c	/^static int none_enabled = 1;$/;"	v	file:
+notify_done	serverloop.c	/^notify_done(fd_set *readset)$/;"	f	file:
+notify_parent	serverloop.c	/^notify_parent(void)$/;"	f	file:
+notify_pipe	serverloop.c	/^static int notify_pipe[2];$/;"	v	file:
+notify_prepare	serverloop.c	/^notify_prepare(fd_set *readset)$/;"	f	file:
+notify_setup	serverloop.c	/^notify_setup(void)$/;"	f	file:
+nreq	auth2-chall.c	/^	u_int nreq;$/;"	m	struct:KbdintAuthctxt	file:
+null_conv	auth-pam.c	/^static struct pam_conv null_conv = { sshpam_null_conv, NULL };$/;"	v	typeref:struct:pam_conv	file:
+num_accept_env	servconf.h	/^	u_int num_accept_env;$/;"	m	struct:__anon5
+num_allow_groups	servconf.h	/^	u_int num_allow_groups;$/;"	m	struct:__anon5
+num_allow_users	servconf.h	/^	u_int num_allow_users;$/;"	m	struct:__anon5
+num_deny_groups	servconf.h	/^	u_int num_deny_groups;$/;"	m	struct:__anon5
+num_deny_users	servconf.h	/^	u_int num_deny_users;$/;"	m	struct:__anon5
+num_env	session.h	/^	u_int	num_env;$/;"	m	struct:Session
+num_handles	sftp-server.c	/^u_int num_handles = 0;$/;"	v
+num_host_key_files	servconf.h	/^	int     num_host_key_files;     \/* Number of files for host keys. *\/$/;"	m	struct:__anon5
+num_listen_socks	sshd.c	/^int num_listen_socks = 0;$/;"	v
+num_permitted_opens	servconf.h	/^	int	num_permitted_opens;$/;"	m	struct:__anon5
+num_ports	servconf.h	/^	u_int num_ports;$/;"	m	struct:__anon5
+num_subsystems	servconf.h	/^	u_int num_subsystems;$/;"	m	struct:__anon5
+opcode	servconf.c	/^	ServerOpCodes opcode;$/;"	m	struct:__anon3	file:
+options	sshd.c	/^ServerOptions options;$/;"	v
+oqueue	sftp-server.c	/^Buffer oqueue;$/;"	v
+original_command	session.c	/^const char *original_command = NULL;$/;"	v
+p_read	do_kex2_exchange.h	/^	struct p_state	p_read;$/;"	m	struct:_common_info	typeref:struct:_common_info::p_state
+p_send	do_kex2_exchange.h	/^	struct p_state	p_send;$/;"	m	struct:_common_info	typeref:struct:_common_info::p_state
+p_state	do_kex2_exchange.h	/^struct p_state {$/;"	s
+packets	do_kex2_exchange.h	/^	u_int32_t packets;$/;"	m	struct:p_state
+pam_chauthtok	auth-pam.c	272;"	d	file:
+pam_csock	auth-pam.c	/^	int		 pam_csock;$/;"	m	struct:pam_ctxt	file:
+pam_ctxt	auth-pam.c	/^struct pam_ctxt {$/;"	s	file:
+pam_done	auth-pam.c	/^	int		 pam_done;$/;"	m	struct:pam_ctxt	file:
+pam_getenvlist	auth-pam.c	/^pam_getenvlist(pam_handle_t *pamh)$/;"	f	file:
+pam_psock	auth-pam.c	/^	int		 pam_psock;$/;"	m	struct:pam_ctxt	file:
+pam_thread	auth-pam.c	/^	sp_pthread_t	 pam_thread;$/;"	m	struct:pam_ctxt	file:
+parse_server_config	servconf.c	/^parse_server_config(ServerOptions *options, const char *filename, Buffer *conf,$/;"	f
+parse_server_match_config	servconf.c	/^parse_server_match_config(ServerOptions *options, const char *user,$/;"	f
+parse_token	servconf.c	/^parse_token(const char *cp, const char *filename,$/;"	f	file:
+passwd_conv	auth-pam.c	/^static struct pam_conv passwd_conv = { sshpam_passwd_conv, NULL };$/;"	v	typeref:struct:pam_conv	file:
+password_authentication	servconf.h	/^	int     password_authentication;	\/* If true, permit password$/;"	m	struct:__anon5
+perm	sftp-common.h	/^	u_int32_t	perm;$/;"	m	struct:Attrib
+permit_empty_passwd	servconf.h	/^	int     permit_empty_passwd;	\/* If false, do not permit empty$/;"	m	struct:__anon5
+permit_root_login	servconf.h	/^	int     permit_root_login;	\/* PERMIT_*, see above *\/$/;"	m	struct:__anon5
+permit_tun	servconf.h	/^	int	permit_tun;$/;"	m	struct:__anon5
+permit_user_env	servconf.h	/^	int     permit_user_env;	\/* If true, read ~\/.ssh\/environment *\/$/;"	m	struct:__anon5
+pid	loginrec.h	/^	int        pid;                          \/* PID of login process *\/$/;"	m	struct:logininfo
+pid	session.h	/^	pid_t	pid;$/;"	m	struct:Session
+pid_file	servconf.h	/^	char   *pid_file;	\/* Where to put our pid *\/$/;"	m	struct:__anon5
+piddir	Makefile	/^piddir=\/var\/run$/;"	m
+platform_post_fork_child	platform.c	/^platform_post_fork_child(void)$/;"	f
+platform_post_fork_parent	platform.c	/^platform_post_fork_parent(pid_t child_pid)$/;"	f
+platform_pre_fork	platform.c	/^platform_pre_fork(void)$/;"	f
+ports	servconf.h	/^	u_short ports[MAX_PORTS];	\/* Port number to listen on. *\/$/;"	m	struct:__anon5
+ports_from_cmdline	servconf.h	/^	u_int ports_from_cmdline;$/;"	m	struct:__anon5
+postponed	auth.h	/^	int		 postponed;	\/* authentication needs another step *\/$/;"	m	struct:Authctxt
+prefix	Makefile	/^prefix=\/sshd$/;"	m
+print_lastlog	servconf.h	/^	int	print_lastlog;	\/* If true, print lastlog *\/$/;"	m	struct:__anon5
+print_motd	servconf.h	/^	int     print_motd;	\/* If true, print \/etc\/motd. *\/$/;"	m	struct:__anon5
+privsep_challenge_enable	auth2-chall.c	/^privsep_challenge_enable(void)$/;"	f
+privsep_preauth_child	sshd.c	/^privsep_preauth_child(void)$/;"	f	file:
+privsep_pw	sshd.c	/^struct passwd *privsep_pw = NULL;$/;"	v	typeref:struct:passwd
+process	sftp-server.c	/^process(void)$/;"	f	file:
+process_buffered_input_packets	serverloop.c	/^process_buffered_input_packets(void)$/;"	f	file:
+process_close	sftp-server.c	/^process_close(void)$/;"	f	file:
+process_do_stat	sftp-server.c	/^process_do_stat(int do_lstat)$/;"	f	file:
+process_extended	sftp-server.c	/^process_extended(void)$/;"	f	file:
+process_extended_fstatvfs	sftp-server.c	/^process_extended_fstatvfs(u_int32_t id)$/;"	f	file:
+process_extended_posix_rename	sftp-server.c	/^process_extended_posix_rename(u_int32_t id)$/;"	f	file:
+process_extended_statvfs	sftp-server.c	/^process_extended_statvfs(u_int32_t id)$/;"	f	file:
+process_fsetstat	sftp-server.c	/^process_fsetstat(void)$/;"	f	file:
+process_fstat	sftp-server.c	/^process_fstat(void)$/;"	f	file:
+process_init	sftp-server.c	/^process_init(void)$/;"	f	file:
+process_input	serverloop.c	/^process_input(fd_set *readset)$/;"	f	file:
+process_lstat	sftp-server.c	/^process_lstat(void)$/;"	f	file:
+process_mkdir	sftp-server.c	/^process_mkdir(void)$/;"	f	file:
+process_open	sftp-server.c	/^process_open(void)$/;"	f	file:
+process_opendir	sftp-server.c	/^process_opendir(void)$/;"	f	file:
+process_output	serverloop.c	/^process_output(fd_set *writeset)$/;"	f	file:
+process_read	sftp-server.c	/^process_read(void)$/;"	f	file:
+process_readdir	sftp-server.c	/^process_readdir(void)$/;"	f	file:
+process_readlink	sftp-server.c	/^process_readlink(void)$/;"	f	file:
+process_realpath	sftp-server.c	/^process_realpath(void)$/;"	f	file:
+process_remove	sftp-server.c	/^process_remove(void)$/;"	f	file:
+process_rename	sftp-server.c	/^process_rename(void)$/;"	f	file:
+process_rmdir	sftp-server.c	/^process_rmdir(void)$/;"	f	file:
+process_server_config_line	servconf.c	/^process_server_config_line(ServerOptions *options, char *line,$/;"	f
+process_setstat	sftp-server.c	/^process_setstat(void)$/;"	f	file:
+process_stat	sftp-server.c	/^process_stat(void)$/;"	f	file:
+process_symlink	sftp-server.c	/^process_symlink(void)$/;"	f	file:
+process_write	sftp-server.c	/^process_write(void)$/;"	f	file:
+progname	loginrec.h	/^	char       progname[LINFO_PROGSIZE];     \/* name of program (for PAM) *\/$/;"	m	struct:logininfo
+progname_null	loginrec.h	/^	int        progname_null;$/;"	m	struct:logininfo
+protocol	servconf.h	/^	int	protocol;	\/* Supported protocol versions. *\/$/;"	m	struct:__anon5
+pthread_cancel	auth-pam.c	/^pthread_cancel(sp_pthread_t thread)$/;"	f	file:
+pthread_create	auth-pam.c	/^pthread_create(sp_pthread_t *thread, const void *attr,$/;"	f	file:
+pthread_exit	auth-pam.c	/^pthread_exit(void *value)$/;"	f	file:
+pthread_join	auth-pam.c	/^pthread_join(sp_pthread_t thread, void **value)$/;"	f	file:
+pty_allocate	sshpty.c	/^pty_allocate(int *ptyfd, int *ttyfd, char *namebuf, size_t namebuflen)$/;"	f
+pty_change_window_size	sshpty.c	/^pty_change_window_size(int ptyfd, u_int row, u_int col,$/;"	f
+pty_make_controlling_tty	sshpty.c	/^pty_make_controlling_tty(int *ttyfd, const char *tty)$/;"	f
+pty_release	sshpty.c	/^pty_release(const char *tty)$/;"	f
+pty_setowner	sshpty.c	/^pty_setowner(struct passwd *pw, const char *tty)$/;"	f
+ptyfd	session.h	/^	int	ptyfd, ttyfd, ptymaster;$/;"	m	struct:Session
+ptymaster	session.h	/^	int	ptyfd, ttyfd, ptymaster;$/;"	m	struct:Session
+pubkey_authentication	servconf.h	/^	int     pubkey_authentication;	\/* If true, permit ssh2 pubkey authentication. *\/$/;"	m	struct:__anon5
+pw	auth.h	/^	struct passwd	*pw;		\/* set if 'valid' *\/$/;"	m	struct:Authctxt	typeref:struct:Authctxt::passwd
+pw	session.h	/^	struct passwd *pw;$/;"	m	struct:Session	typeref:struct:Session::passwd
+pw	sftp-server.c	/^struct passwd *pw = NULL;$/;"	v	typeref:struct:passwd
+query	auth.h	/^	int	(*query)(void *ctx, char **name, char **infotxt,$/;"	m	struct:KbdintDevice
+read_environment_file	session.c	/^read_environment_file(char ***env, u_int *envsize,$/;"	f	file:
+read_etc_default_login	session.c	/^read_etc_default_login(char ***env, u_int *envsize, uid_t uid)$/;"	f	file:
+received_sighup	sshd.c	/^static volatile sig_atomic_t received_sighup = 0;$/;"	v	file:
+received_sigterm	serverloop.c	/^static volatile sig_atomic_t received_sigterm = 0;$/;"	v	file:
+received_sigterm	sshd.c	/^static volatile sig_atomic_t received_sigterm = 0;$/;"	v	file:
+record_failed_login	loginrec.c	/^record_failed_login(const char *username, const char *hostname,$/;"	f
+record_login	sshlogin.c	/^record_login(pid_t pid, const char *tty, const char *user, uid_t uid,$/;"	f
+record_logout	sshlogin.c	/^record_logout(pid_t pid, const char *tty, const char *user)$/;"	f
+record_utmp_only	sshlogin.c	/^record_utmp_only(pid_t pid, const char *ttyname, const char *user,$/;"	f
+recv_cc	do_kex2_exchange.h	/^	CipherContext	recv_cc;$/;"	m	struct:_common_info
+recv_keys	do_kex2_exchange.h	/^	Newkeys	*recv_keys;$/;"	m	struct:_common_info
+recv_none_cc	do_kex2_exchange.h	/^	CipherContext	recv_none_cc;$/;"	m	struct:_common_info
+recv_rexec_state	sshd.c	/^recv_rexec_state(int fd, Buffer *conf)$/;"	f	file:
+remove_kbdint_device	auth2-chall.c	/^remove_kbdint_device(const char *devname)$/;"	f
+respond	auth.h	/^	int	(*respond)(void *ctx, u_int numresp, char **responses);$/;"	m	struct:KbdintDevice
+rexec_argc	sshd.c	/^int rexec_argc = 0;$/;"	v
+rexec_argv	sshd.c	/^char **rexec_argv;$/;"	v
+rexec_flag	sshd.c	/^int rexec_flag = 1;$/;"	v
+rexeced_flag	sshd.c	/^int rexeced_flag = 0;$/;"	v
+rhosts_rsa_authentication	servconf.h	/^	int     rhosts_rsa_authentication;	\/* If true, permit rhosts RSA$/;"	m	struct:__anon5
+rk_enable	do_kex2_exchange.h	/^	int	rk_enable;$/;"	m	struct:_common_info
+row	session.h	/^	u_int	row, col, xpixel, ypixel;$/;"	m	struct:Session
+rsa_authentication	servconf.h	/^	int     rsa_authentication;	\/* If true, permit RSA authentication. *\/$/;"	m	struct:__anon5
+s	auth-options.h	/^	char   *s;$/;"	m	struct:envstring
+sAcceptEnv	servconf.c	/^	sGssAuthentication, sGssCleanupCreds, sAcceptEnv, sPermitTunnel,$/;"	e	enum:__anon2	file:
+sAddressFamily	servconf.c	/^	sListenAddress, sAddressFamily,$/;"	e	enum:__anon2	file:
+sAllowAgentForwarding	servconf.c	/^	sUsePrivilegeSeparation, sAllowAgentForwarding,$/;"	e	enum:__anon2	file:
+sAllowGroups	servconf.c	/^	sAllowUsers, sDenyUsers, sAllowGroups, sDenyGroups,$/;"	e	enum:__anon2	file:
+sAllowTcpForwarding	servconf.c	/^	sPermitUserEnvironment, sUseLogin, sAllowTcpForwarding, sCompression,$/;"	e	enum:__anon2	file:
+sAllowUsers	servconf.c	/^	sAllowUsers, sDenyUsers, sAllowGroups, sDenyGroups,$/;"	e	enum:__anon2	file:
+sAuthorizedKeysFile	servconf.c	/^	sClientAliveCountMax, sAuthorizedKeysFile, sAuthorizedKeysFile2,$/;"	e	enum:__anon2	file:
+sAuthorizedKeysFile2	servconf.c	/^	sClientAliveCountMax, sAuthorizedKeysFile, sAuthorizedKeysFile2,$/;"	e	enum:__anon2	file:
+sBadOption	servconf.c	/^	sBadOption,		\/* == unknown option *\/$/;"	e	enum:__anon2	file:
+sBanner	servconf.c	/^	sBanner, sUseDNS, sHostbasedAuthentication,$/;"	e	enum:__anon2	file:
+sChallengeResponseAuthentication	servconf.c	/^	sKerberosTgtPassing, sChallengeResponseAuthentication,$/;"	e	enum:__anon2	file:
+sChrootDirectory	servconf.c	/^	sMatch, sPermitOpen, sForceCommand, sChrootDirectory,$/;"	e	enum:__anon2	file:
+sCiphers	servconf.c	/^	sIgnoreUserKnownHosts, sCiphers, sMacs, sProtocol, sPidFile,$/;"	e	enum:__anon2	file:
+sClientAliveCountMax	servconf.c	/^	sClientAliveCountMax, sAuthorizedKeysFile, sAuthorizedKeysFile2,$/;"	e	enum:__anon2	file:
+sClientAliveInterval	servconf.c	/^	sHostbasedUsesNameFromPacketOnly, sClientAliveInterval,$/;"	e	enum:__anon2	file:
+sCompression	servconf.c	/^	sPermitUserEnvironment, sUseLogin, sAllowTcpForwarding, sCompression,$/;"	e	enum:__anon2	file:
+sDenyGroups	servconf.c	/^	sAllowUsers, sDenyUsers, sAllowGroups, sDenyGroups,$/;"	e	enum:__anon2	file:
+sDenyUsers	servconf.c	/^	sAllowUsers, sDenyUsers, sAllowGroups, sDenyGroups,$/;"	e	enum:__anon2	file:
+sDeprecated	servconf.c	/^	sDeprecated, sUnsupported$/;"	e	enum:__anon2	file:
+sEmptyPasswd	servconf.c	/^	sStrictModes, sEmptyPasswd, sTCPKeepAlive,$/;"	e	enum:__anon2	file:
+sForceCommand	servconf.c	/^	sMatch, sPermitOpen, sForceCommand, sChrootDirectory,$/;"	e	enum:__anon2	file:
+sGatewayPorts	servconf.c	/^	sGatewayPorts, sPubkeyAuthentication, sXAuthLocation, sSubsystem,$/;"	e	enum:__anon2	file:
+sGssAuthentication	servconf.c	/^	sGssAuthentication, sGssCleanupCreds, sAcceptEnv, sPermitTunnel,$/;"	e	enum:__anon2	file:
+sGssCleanupCreds	servconf.c	/^	sGssAuthentication, sGssCleanupCreds, sAcceptEnv, sPermitTunnel,$/;"	e	enum:__anon2	file:
+sHostKeyFile	servconf.c	/^	sPort, sHostKeyFile, sServerKeyBits, sLoginGraceTime, sKeyRegenerationTime,$/;"	e	enum:__anon2	file:
+sHostbasedAuthentication	servconf.c	/^	sBanner, sUseDNS, sHostbasedAuthentication,$/;"	e	enum:__anon2	file:
+sHostbasedUsesNameFromPacketOnly	servconf.c	/^	sHostbasedUsesNameFromPacketOnly, sClientAliveInterval,$/;"	e	enum:__anon2	file:
+sIgnoreRhosts	servconf.c	/^	sPrintMotd, sPrintLastLog, sIgnoreRhosts,$/;"	e	enum:__anon2	file:
+sIgnoreUserKnownHosts	servconf.c	/^	sIgnoreUserKnownHosts, sCiphers, sMacs, sProtocol, sPidFile,$/;"	e	enum:__anon2	file:
+sKbdInteractiveAuthentication	servconf.c	/^	sPasswordAuthentication, sKbdInteractiveAuthentication,$/;"	e	enum:__anon2	file:
+sKerberosAuthentication	servconf.c	/^	sKerberosAuthentication, sKerberosOrLocalPasswd, sKerberosTicketCleanup,$/;"	e	enum:__anon2	file:
+sKerberosGetAFSToken	servconf.c	/^	sKerberosGetAFSToken,$/;"	e	enum:__anon2	file:
+sKerberosOrLocalPasswd	servconf.c	/^	sKerberosAuthentication, sKerberosOrLocalPasswd, sKerberosTicketCleanup,$/;"	e	enum:__anon2	file:
+sKerberosTgtPassing	servconf.c	/^	sKerberosTgtPassing, sChallengeResponseAuthentication,$/;"	e	enum:__anon2	file:
+sKerberosTicketCleanup	servconf.c	/^	sKerberosAuthentication, sKerberosOrLocalPasswd, sKerberosTicketCleanup,$/;"	e	enum:__anon2	file:
+sKeyRegenerationTime	servconf.c	/^	sPort, sHostKeyFile, sServerKeyBits, sLoginGraceTime, sKeyRegenerationTime,$/;"	e	enum:__anon2	file:
+sListenAddress	servconf.c	/^	sListenAddress, sAddressFamily,$/;"	e	enum:__anon2	file:
+sLogFacility	servconf.c	/^	sPermitRootLogin, sLogFacility, sLogLevel,$/;"	e	enum:__anon2	file:
+sLogLevel	servconf.c	/^	sPermitRootLogin, sLogFacility, sLogLevel,$/;"	e	enum:__anon2	file:
+sLoginGraceTime	servconf.c	/^	sPort, sHostKeyFile, sServerKeyBits, sLoginGraceTime, sKeyRegenerationTime,$/;"	e	enum:__anon2	file:
+sMacs	servconf.c	/^	sIgnoreUserKnownHosts, sCiphers, sMacs, sProtocol, sPidFile,$/;"	e	enum:__anon2	file:
+sMatch	servconf.c	/^	sMatch, sPermitOpen, sForceCommand, sChrootDirectory,$/;"	e	enum:__anon2	file:
+sMaxAuthTries	servconf.c	/^	sMaxStartups, sMaxAuthTries, sMaxSessions,$/;"	e	enum:__anon2	file:
+sMaxSessions	servconf.c	/^	sMaxStartups, sMaxAuthTries, sMaxSessions,$/;"	e	enum:__anon2	file:
+sMaxStartups	servconf.c	/^	sMaxStartups, sMaxAuthTries, sMaxSessions,$/;"	e	enum:__anon2	file:
+sPasswordAuthentication	servconf.c	/^	sPasswordAuthentication, sKbdInteractiveAuthentication,$/;"	e	enum:__anon2	file:
+sPermitOpen	servconf.c	/^	sMatch, sPermitOpen, sForceCommand, sChrootDirectory,$/;"	e	enum:__anon2	file:
+sPermitRootLogin	servconf.c	/^	sPermitRootLogin, sLogFacility, sLogLevel,$/;"	e	enum:__anon2	file:
+sPermitTunnel	servconf.c	/^	sGssAuthentication, sGssCleanupCreds, sAcceptEnv, sPermitTunnel,$/;"	e	enum:__anon2	file:
+sPermitUserEnvironment	servconf.c	/^	sPermitUserEnvironment, sUseLogin, sAllowTcpForwarding, sCompression,$/;"	e	enum:__anon2	file:
+sPidFile	servconf.c	/^	sIgnoreUserKnownHosts, sCiphers, sMacs, sProtocol, sPidFile,$/;"	e	enum:__anon2	file:
+sPort	servconf.c	/^	sPort, sHostKeyFile, sServerKeyBits, sLoginGraceTime, sKeyRegenerationTime,$/;"	e	enum:__anon2	file:
+sPrintLastLog	servconf.c	/^	sPrintMotd, sPrintLastLog, sIgnoreRhosts,$/;"	e	enum:__anon2	file:
+sPrintMotd	servconf.c	/^	sPrintMotd, sPrintLastLog, sIgnoreRhosts,$/;"	e	enum:__anon2	file:
+sProtocol	servconf.c	/^	sIgnoreUserKnownHosts, sCiphers, sMacs, sProtocol, sPidFile,$/;"	e	enum:__anon2	file:
+sPubkeyAuthentication	servconf.c	/^	sGatewayPorts, sPubkeyAuthentication, sXAuthLocation, sSubsystem,$/;"	e	enum:__anon2	file:
+sRSAAuthentication	servconf.c	/^	sRhostsRSAAuthentication, sRSAAuthentication,$/;"	e	enum:__anon2	file:
+sRhostsRSAAuthentication	servconf.c	/^	sRhostsRSAAuthentication, sRSAAuthentication,$/;"	e	enum:__anon2	file:
+sServerKeyBits	servconf.c	/^	sPort, sHostKeyFile, sServerKeyBits, sLoginGraceTime, sKeyRegenerationTime,$/;"	e	enum:__anon2	file:
+sStrictModes	servconf.c	/^	sStrictModes, sEmptyPasswd, sTCPKeepAlive,$/;"	e	enum:__anon2	file:
+sSubsystem	servconf.c	/^	sGatewayPorts, sPubkeyAuthentication, sXAuthLocation, sSubsystem,$/;"	e	enum:__anon2	file:
+sTCPKeepAlive	servconf.c	/^	sStrictModes, sEmptyPasswd, sTCPKeepAlive,$/;"	e	enum:__anon2	file:
+sUnsupported	servconf.c	/^	sDeprecated, sUnsupported$/;"	e	enum:__anon2	file:
+sUseDNS	servconf.c	/^	sBanner, sUseDNS, sHostbasedAuthentication,$/;"	e	enum:__anon2	file:
+sUseLogin	servconf.c	/^	sPermitUserEnvironment, sUseLogin, sAllowTcpForwarding, sCompression,$/;"	e	enum:__anon2	file:
+sUsePAM	servconf.c	/^	sUsePAM,$/;"	e	enum:__anon2	file:
+sUsePrivilegeSeparation	servconf.c	/^	sUsePrivilegeSeparation, sAllowAgentForwarding,$/;"	e	enum:__anon2	file:
+sX11DisplayOffset	servconf.c	/^	sX11Forwarding, sX11DisplayOffset, sX11UseLocalhost,$/;"	e	enum:__anon2	file:
+sX11Forwarding	servconf.c	/^	sX11Forwarding, sX11DisplayOffset, sX11UseLocalhost,$/;"	e	enum:__anon2	file:
+sX11UseLocalhost	servconf.c	/^	sX11Forwarding, sX11DisplayOffset, sX11UseLocalhost,$/;"	e	enum:__anon2	file:
+sXAuthLocation	servconf.c	/^	sGatewayPorts, sPubkeyAuthentication, sXAuthLocation, sSubsystem,$/;"	e	enum:__anon2	file:
+sa	loginrec.h	/^	struct sockaddr sa;$/;"	m	union:login_netinfo	typeref:struct:login_netinfo::sockaddr
+sa_in	loginrec.h	/^	struct sockaddr_in sa_in;$/;"	m	union:login_netinfo	typeref:struct:login_netinfo::sockaddr_in
+sa_storage	loginrec.h	/^	struct sockaddr_storage sa_storage;$/;"	m	union:login_netinfo	typeref:struct:login_netinfo::sockaddr_storage
+safely_chroot	session.c	/^safely_chroot(const char *path, uid_t uid)$/;"	f	file:
+saved_argc	sshd.c	/^int saved_argc;$/;"	v
+saved_argv	sshd.c	/^char **saved_argv;$/;"	v
+sbindir	Makefile	/^sbindir=${exec_prefix}\/sbin$/;"	m
+screen	session.h	/^	u_int	screen;$/;"	m	struct:Session
+secure_filename	auth.c	/^secure_filename(FILE *f, const char *file, struct passwd *pw,$/;"	f	file:
+selected	audit-bsm.c	/^selected(char *username, uid_t uid, au_event_t event, int sf)$/;"	f	file:
+self	session.h	/^	int	self;$/;"	m	struct:Session
+send_attrib	sftp-server.c	/^send_attrib(u_int32_t id, const Attrib *a)$/;"	f	file:
+send_cc	do_kex2_exchange.h	/^	CipherContext	send_cc;$/;"	m	struct:_common_info
+send_data	sftp-server.c	/^send_data(u_int32_t id, const char *data, int dlen)$/;"	f	file:
+send_data_or_handle	sftp-server.c	/^send_data_or_handle(char type, u_int32_t id, const char *data, int dlen)$/;"	f	file:
+send_handle	sftp-server.c	/^send_handle(u_int32_t id, int handle)$/;"	f	file:
+send_keys	do_kex2_exchange.h	/^	Newkeys	*send_keys;$/;"	m	struct:_common_info
+send_msg	sftp-server.c	/^send_msg(Buffer *m)$/;"	f	file:
+send_names	sftp-server.c	/^send_names(u_int32_t id, int count, const Stat *stats)$/;"	f	file:
+send_none_cc	do_kex2_exchange.h	/^	CipherContext	send_none_cc;$/;"	m	struct:_common_info
+send_rexec_state	sshd.c	/^send_rexec_state(int fd, Buffer *conf)$/;"	f	file:
+send_status	sftp-server.c	/^send_status(u_int32_t id, u_int32_t status)$/;"	f	file:
+send_statvfs	sftp-server.c	/^send_statvfs(u_int32_t id, struct statvfs *st)$/;"	f	file:
+send_userauth_info_request	auth2-chall.c	/^send_userauth_info_request(Authctxt *authctxt)$/;"	f	file:
+sensitive_data	sshd.c	/^} sensitive_data;$/;"	v	typeref:struct:__anon8
+seqnr	do_kex2_exchange.h	/^	u_int32_t seqnr;$/;"	m	struct:p_state
+server_accept_inetd	sshd.c	/^server_accept_inetd(int *sock_in, int *sock_out)$/;"	f	file:
+server_accept_loop	sshd.c	/^server_accept_loop(int *sock_in, int *sock_out, int *newsock, int *config_s)$/;"	f	file:
+server_init_dispatch	serverloop.c	/^server_init_dispatch(void)$/;"	f	file:
+server_init_dispatch_13	serverloop.c	/^server_init_dispatch_13(void)$/;"	f	file:
+server_init_dispatch_15	serverloop.c	/^server_init_dispatch_15(void)$/;"	f	file:
+server_init_dispatch_20	serverloop.c	/^server_init_dispatch_20(void)$/;"	f	file:
+server_input_channel_open	serverloop.c	/^server_input_channel_open(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_channel_req	serverloop.c	/^server_input_channel_req(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_eof	serverloop.c	/^server_input_eof(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_global_request	serverloop.c	/^server_input_global_request(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_keep_alive	serverloop.c	/^server_input_keep_alive(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_stdin_data	serverloop.c	/^server_input_stdin_data(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_input_window_size	serverloop.c	/^server_input_window_size(int type, u_int32_t seq, void *ctxt)$/;"	f	file:
+server_key	do_kex2_exchange.c	/^	Key     *server_key;            \/* ephemeral server key *\/$/;"	m	struct:__anon1	file:
+server_key	sshd.c	/^	Key	*server_key;		\/* ephemeral server key *\/$/;"	m	struct:__anon8	file:
+server_key_bits	servconf.h	/^	int     server_key_bits;\/* Size of the server key. *\/$/;"	m	struct:__anon5
+server_listen	sshd.c	/^server_listen(void)$/;"	f	file:
+server_loop	serverloop.c	/^server_loop(pid_t pid, int fdin_arg, int fdout_arg, int fderr_arg)$/;"	f
+server_loop2	serverloop.c	/^server_loop2(Authctxt *authctxt)$/;"	f
+server_request_direct_tcpip	serverloop.c	/^server_request_direct_tcpip(void)$/;"	f	file:
+server_request_session	serverloop.c	/^server_request_session(void)$/;"	f	file:
+server_request_tun	serverloop.c	/^server_request_tun(void)$/;"	f	file:
+server_version_string	do_kex2_exchange.h	/^	char	*server_version_string;$/;"	m	struct:_common_info
+server_version_string	sshd.c	/^char *server_version_string = NULL;$/;"	v
+service	auth.h	/^	char		*service;$/;"	m	struct:Authctxt
+session_auth_agent_req	session.c	/^session_auth_agent_req(Session *s)$/;"	f	file:
+session_break_req	session.c	/^session_break_req(Session *s)$/;"	f	file:
+session_by_channel	session.c	/^session_by_channel(int id)$/;"	f	file:
+session_by_pid	session.c	/^session_by_pid(pid_t pid)$/;"	f	file:
+session_by_tty	session.c	/^session_by_tty(char *tty)$/;"	f
+session_by_x11_channel	session.c	/^session_by_x11_channel(int id)$/;"	f	file:
+session_close	session.c	/^session_close(Session *s)$/;"	f
+session_close_by_channel	session.c	/^session_close_by_channel(int id, void *arg)$/;"	f
+session_close_by_pid	session.c	/^session_close_by_pid(pid_t pid, int status)$/;"	f
+session_close_single_x11	session.c	/^session_close_single_x11(int id, void *arg)$/;"	f	file:
+session_close_x11	session.c	/^session_close_x11(int id)$/;"	f	file:
+session_destroy_all	session.c	/^session_destroy_all(void (*closefunc)(Session *))$/;"	f
+session_dump	session.c	/^session_dump(void)$/;"	f	file:
+session_env_req	session.c	/^session_env_req(Session *s)$/;"	f	file:
+session_exec_req	session.c	/^session_exec_req(Session *s)$/;"	f	file:
+session_exit_message	session.c	/^session_exit_message(Session *s, int status)$/;"	f	file:
+session_id	sshd.c	/^u_char session_id[16];$/;"	v
+session_id2	sshd.c	/^u_char *session_id2 = NULL;$/;"	v
+session_id2_len	sshd.c	/^u_int session_id2_len = 0;$/;"	v
+session_input_channel_req	session.c	/^session_input_channel_req(Channel *c, const char *rtype)$/;"	f
+session_new	session.c	/^session_new(void)$/;"	f
+session_open	session.c	/^session_open(Authctxt *authctxt, int chanid)$/;"	f
+session_proctitle	session.c	/^session_proctitle(Session *s)$/;"	f
+session_pty_cleanup	session.c	/^session_pty_cleanup(Session *s)$/;"	f
+session_pty_cleanup2	session.c	/^session_pty_cleanup2(Session *s)$/;"	f
+session_pty_req	session.c	/^session_pty_req(Session *s)$/;"	f	file:
+session_set_fds	session.c	/^session_set_fds(Session *s, int fdin, int fdout, int fderr, int is_tty)$/;"	f
+session_setup_sia	auth-sia.c	/^session_setup_sia(struct passwd *pw, char *tty)$/;"	f
+session_setup_x11fwd	session.c	/^session_setup_x11fwd(Session *s)$/;"	f
+session_shell_req	session.c	/^session_shell_req(Session *s)$/;"	f	file:
+session_subsystem_req	session.c	/^session_subsystem_req(Session *s)$/;"	f	file:
+session_tty_list	session.c	/^session_tty_list(void)$/;"	f	file:
+session_unused	session.c	/^session_unused(int id)$/;"	f
+session_window_change_req	session.c	/^session_window_change_req(Session *s)$/;"	f	file:
+session_x11_req	session.c	/^session_x11_req(Session *s)$/;"	f	file:
+sessions	session.c	/^static Session *sessions = NULL;$/;"	v	file:
+sessions_first_unused	session.c	/^static int sessions_first_unused = -1;$/;"	v	file:
+sessions_nalloc	session.c	/^static int sessions_nalloc = 0;$/;"	v	file:
+set_utmp_time	loginrec.c	/^set_utmp_time(struct logininfo *li, struct utmp *ut)$/;"	f
+set_utmpx_time	loginrec.c	/^set_utmpx_time(struct logininfo *li, struct utmpx *utx)$/;"	f
+sftp_server_cleanup_exit	sftp-server.c	/^sftp_server_cleanup_exit(int i)$/;"	f
+sftp_server_main	sftp-server.c	/^sftp_server_main(int argc, char **argv, struct passwd *user_pw)$/;"	f
+sftp_server_usage	sftp-server.c	/^sftp_server_usage(void)$/;"	f	file:
+sia_password_change_required	auth-sia.c	/^sia_password_change_required(const char *user)$/;"	f	file:
+sig2name	session.c	/^sig2name(int sig)$/;"	f	file:
+sigchld_handler	serverloop.c	/^sigchld_handler(int sig)$/;"	f	file:
+sighup_handler	sshd.c	/^sighup_handler(int sig)$/;"	f	file:
+sighup_restart	sshd.c	/^sighup_restart(void)$/;"	f	file:
+sigterm_handler	serverloop.c	/^sigterm_handler(int sig)$/;"	f	file:
+sigterm_handler	sshd.c	/^sigterm_handler(int sig)$/;"	f	file:
+single_connection	session.h	/^	int	single_connection;$/;"	m	struct:Session
+size	sftp-common.h	/^	u_int64_t	size;$/;"	m	struct:Attrib
+sk_enable	do_kex2_exchange.h	/^	int	sk_enable;$/;"	m	struct:_common_info
+skey_device	auth-skey.c	/^KbdintDevice skey_device = {$/;"	v
+skey_free_ctx	auth-skey.c	/^skey_free_ctx(void *ctx)$/;"	f	file:
+skey_init_ctx	auth-skey.c	/^skey_init_ctx(Authctxt *authctxt)$/;"	f	file:
+skey_query	auth-skey.c	/^skey_query(void *ctx, char **name, char **infotxt,$/;"	f
+skey_respond	auth-skey.c	/^skey_respond(void *ctx, u_int numresponses, char **responses)$/;"	f
+sp_pthread_t	auth-pam.c	/^typedef pid_t sp_pthread_t;$/;"	t	file:
+sp_pthread_t	auth-pam.c	/^typedef pthread_t sp_pthread_t;$/;"	t	file:
+srcdir	Makefile	/^srcdir=.$/;"	m
+ssh1_cookie	do_kex2_exchange.c	/^	u_char  ssh1_cookie[SSH_SESSION_KEY_LENGTH];$/;"	m	struct:__anon1	file:
+ssh1_cookie	sshd.c	/^	u_char	ssh1_cookie[SSH_SESSION_KEY_LENGTH];$/;"	m	struct:__anon8	file:
+ssh1_host_key	do_kex2_exchange.c	/^	Key     *ssh1_host_key;         \/* ssh1 host key *\/$/;"	m	struct:__anon1	file:
+ssh1_host_key	sshd.c	/^	Key	*ssh1_host_key;		\/* ssh1 host key *\/$/;"	m	struct:__anon8	file:
+ssh1_session_key	sshd.c	/^ssh1_session_key(BIGNUM *session_key_int)$/;"	f
+ssh_audit_event_t	audit.h	/^typedef enum ssh_audit_event_type ssh_audit_event_t;$/;"	t	typeref:enum:ssh_audit_event_type
+ssh_audit_event_type	audit.h	/^enum ssh_audit_event_type {$/;"	g
+ssh_bsm_tid	audit-bsm.c	/^static AuditInfoTermID ssh_bsm_tid;$/;"	v	file:
+ssh_gssapi_accept_ctx	gss-serv.c	/^ssh_gssapi_accept_ctx(Gssctxt *ctx, gss_buffer_desc *recv_tok,$/;"	f
+ssh_gssapi_acquire_cred	gss-serv.c	/^ssh_gssapi_acquire_cred(Gssctxt *ctx)$/;"	f	file:
+ssh_gssapi_checkmic	gss-serv.c	/^ssh_gssapi_checkmic(Gssctxt *ctx, gss_buffer_t gssbuf, gss_buffer_t gssmic)$/;"	f
+ssh_gssapi_cleanup_creds	gss-serv.c	/^ssh_gssapi_cleanup_creds(void)$/;"	f
+ssh_gssapi_do_child	gss-serv.c	/^ssh_gssapi_do_child(char ***envp, u_int *envsizep)$/;"	f
+ssh_gssapi_getclient	gss-serv.c	/^ssh_gssapi_getclient(Gssctxt *ctx, ssh_gssapi_client *client)$/;"	f
+ssh_gssapi_krb5_init	gss-serv-krb5.c	/^ssh_gssapi_krb5_init(void)$/;"	f	file:
+ssh_gssapi_krb5_storecreds	gss-serv-krb5.c	/^ssh_gssapi_krb5_storecreds(ssh_gssapi_client *client)$/;"	f	file:
+ssh_gssapi_krb5_userok	gss-serv-krb5.c	/^ssh_gssapi_krb5_userok(ssh_gssapi_client *client, char *name)$/;"	f	file:
+ssh_gssapi_parse_ename	gss-serv.c	/^ssh_gssapi_parse_ename(Gssctxt *ctx, gss_buffer_t ename, gss_buffer_t name)$/;"	f	file:
+ssh_gssapi_server_ctx	gss-serv.c	/^ssh_gssapi_server_ctx(Gssctxt **ctx, gss_OID oid)$/;"	f
+ssh_gssapi_storecreds	gss-serv.c	/^ssh_gssapi_storecreds(void)$/;"	f
+ssh_gssapi_supported_oids	gss-serv.c	/^ssh_gssapi_supported_oids(gss_OID_set *oidset)$/;"	f
+ssh_gssapi_userok	gss-serv.c	/^ssh_gssapi_userok(char *user)$/;"	f
+ssh_krb5_cc_gen	auth-krb5.c	/^ssh_krb5_cc_gen(krb5_context ctx, krb5_ccache *ccache) {$/;"	f
+sshd_exchange_identification	sshd.c	/^sshd_exchange_identification(int sock_in, int sock_out)$/;"	f	file:
+sshpam_account_status	auth-pam.c	/^static int sshpam_account_status = -1;$/;"	v	file:
+sshpam_auth_passwd	auth-pam.c	/^sshpam_auth_passwd(Authctxt *authctxt, const char *password)$/;"	f
+sshpam_authctxt	auth-pam.c	/^static Authctxt *sshpam_authctxt = NULL;$/;"	v	file:
+sshpam_authenticated	auth-pam.c	/^static int sshpam_authenticated = 0;$/;"	v	file:
+sshpam_chauthtok_ruid	auth-pam.c	/^sshpam_chauthtok_ruid(pam_handle_t *pamh, int flags)$/;"	f	file:
+sshpam_cleanup	auth-pam.c	/^sshpam_cleanup(void)$/;"	f
+sshpam_const	auth-pam.c	70;"	d	file:
+sshpam_const	auth-pam.c	72;"	d	file:
+sshpam_cred_established	auth-pam.c	/^static int sshpam_cred_established = 0;$/;"	v	file:
+sshpam_device	auth-pam.c	/^KbdintDevice sshpam_device = {$/;"	v
+sshpam_env	auth-pam.c	/^static char **sshpam_env = NULL;$/;"	v	file:
+sshpam_err	auth-pam.c	/^static int sshpam_err = 0;$/;"	v	file:
+sshpam_free_ctx	auth-pam.c	/^sshpam_free_ctx(void *ctxtp)$/;"	f	file:
+sshpam_handle	auth-pam.c	/^static pam_handle_t *sshpam_handle = NULL;$/;"	v	file:
+sshpam_init	auth-pam.c	/^sshpam_init(Authctxt *authctxt)$/;"	f	file:
+sshpam_init_ctx	auth-pam.c	/^sshpam_init_ctx(Authctxt *authctxt)$/;"	f	file:
+sshpam_null_conv	auth-pam.c	/^sshpam_null_conv(int n, sshpam_const struct pam_message **msg,$/;"	f	file:
+sshpam_oldsig	auth-pam.c	/^static mysig_t sshpam_oldsig;$/;"	v	file:
+sshpam_passwd_conv	auth-pam.c	/^sshpam_passwd_conv(int n, sshpam_const struct pam_message **msg,$/;"	f	file:
+sshpam_password	auth-pam.c	/^static const char *sshpam_password = NULL;$/;"	v	file:
+sshpam_password_change_required	auth-pam.c	/^sshpam_password_change_required(int reqd)$/;"	f
+sshpam_query	auth-pam.c	/^sshpam_query(void *ctx, char **name, char **info,$/;"	f	file:
+sshpam_respond	auth-pam.c	/^sshpam_respond(void *ctx, u_int num, char **resp)$/;"	f	file:
+sshpam_session_open	auth-pam.c	/^static int sshpam_session_open = 0;$/;"	v	file:
+sshpam_sigchld_handler	auth-pam.c	/^sshpam_sigchld_handler(int sig)$/;"	f	file:
+sshpam_store_conv	auth-pam.c	/^sshpam_store_conv(int n, sshpam_const struct pam_message **msg,$/;"	f	file:
+sshpam_thread	auth-pam.c	/^sshpam_thread(void *ctxtp)$/;"	f	file:
+sshpam_thread_cleanup	auth-pam.c	/^sshpam_thread_cleanup(void)$/;"	f
+sshpam_thread_conv	auth-pam.c	/^sshpam_thread_conv(int n, sshpam_const struct pam_message **msg,$/;"	f	file:
+sshpam_thread_status	auth-pam.c	/^static int sshpam_thread_status = -1;$/;"	v	file:
+sshpam_tty_conv	auth-pam.c	/^sshpam_tty_conv(int n, sshpam_const struct pam_message **msg,$/;"	f	file:
+start_pam	auth-pam.c	/^start_pam(Authctxt *authctxt)$/;"	f
+startup_pipe	sshd.c	/^int startup_pipe;		\/* in child *\/$/;"	v
+startup_pipes	sshd.c	/^int *startup_pipes = NULL;$/;"	v
+stat_to_attrib	sftp-common.c	/^stat_to_attrib(const struct stat *st, Attrib *a)$/;"	f
+status_to_message	sftp-server.c	/^status_to_message(u_int32_t status)$/;"	f	file:
+stderr_buffer	serverloop.c	/^static Buffer stderr_buffer;	\/* Buffer for stderr data. *\/$/;"	v	file:
+stderr_bytes	serverloop.c	/^static long stderr_bytes = 0;	\/* Number of stderr bytes sent to client. *\/$/;"	v	file:
+stdin_buffer	serverloop.c	/^static Buffer stdin_buffer;	\/* Buffer for stdin data. *\/$/;"	v	file:
+stdin_bytes	serverloop.c	/^static long stdin_bytes = 0;	\/* Number of bytes written to stdin. *\/$/;"	v	file:
+stdin_eof	serverloop.c	/^static int stdin_eof = 0;	\/* EOF message received from client. *\/$/;"	v	file:
+stdout_buffer	serverloop.c	/^static Buffer stdout_buffer;	\/* Buffer for stdout data. *\/$/;"	v	file:
+stdout_bytes	serverloop.c	/^static long stdout_bytes = 0;	\/* Number of stdout bytes sent to client. *\/$/;"	v	file:
+store_conv	auth-pam.c	/^static struct pam_conv store_conv = { sshpam_store_conv, NULL };$/;"	v	typeref:struct:pam_conv	file:
+store_lastlog_message	sshlogin.c	/^store_lastlog_message(const char *user, uid_t uid)$/;"	f	file:
+strict_modes	servconf.h	/^	int     strict_modes;	\/* If true, require string home dir modes. *\/$/;"	m	struct:__anon5
+string_from_portable	sftp-server.c	/^string_from_portable(int pflags)$/;"	f	file:
+style	auth.h	/^	char		*style;$/;"	m	struct:Authctxt
+subsystem_args	servconf.h	/^	char   *subsystem_args[MAX_SUBSYSTEMS];$/;"	m	struct:__anon5
+subsystem_command	servconf.h	/^	char   *subsystem_command[MAX_SUBSYSTEMS];$/;"	m	struct:__anon5
+subsystem_name	servconf.h	/^	char   *subsystem_name[MAX_SUBSYSTEMS];$/;"	m	struct:__anon5
+success	auth.h	/^	sig_atomic_t	 success;$/;"	m	struct:Authctxt
+supported_mechs	gss-serv.c	/^ssh_gssapi_mech* supported_mechs[]= {$/;"	v
+sys_auth_passwd	auth-passwd.c	/^sys_auth_passwd(Authctxt *authctxt, const char *password)$/;"	f
+sys_auth_passwd	auth-sia.c	/^sys_auth_passwd(Authctxt *authctxt, const char *pass)$/;"	f
+sysconfdir	Makefile	/^sysconfdir=${prefix}\/etc1$/;"	m
+syslogin_perform_login	loginrec.c	/^syslogin_perform_login(struct logininfo *li)$/;"	f	file:
+syslogin_perform_logout	loginrec.c	/^syslogin_perform_logout(struct logininfo *li)$/;"	f	file:
+syslogin_write_entry	loginrec.c	/^syslogin_write_entry(struct logininfo *li)$/;"	f
+tcp_keep_alive	servconf.h	/^	int     tcp_keep_alive;	\/* If true, set SO_KEEPALIVE. *\/$/;"	m	struct:__anon5
+term	session.h	/^	char	*term;$/;"	m	struct:Session
+termination	loginrec.h	/^	int        termination;                 \/* process termination status *\/$/;"	m	struct:logininfo
+test_flag	sshd.c	/^int test_flag = 0;$/;"	v
+text	servconf.c	/^	char *text;$/;"	m	struct:__anon4	file:
+the_authctxt	sshd.c	/^Authctxt *the_authctxt = NULL;$/;"	v
+to64	md5crypt.c	/^to64(unsigned long v, int n)$/;"	f	file:
+top_srcdir	Makefile	/^top_srcdir=.$/;"	m
+tty	session.h	/^	char	tty[TTYSZ];$/;"	m	struct:Session
+tty_conv	auth-pam.c	/^static struct pam_conv tty_conv = { sshpam_tty_conv, NULL };$/;"	v	typeref:struct:pam_conv	file:
+ttyfd	session.h	/^	int	ptyfd, ttyfd, ptymaster;$/;"	m	struct:Session
+tunmode_desc	servconf.c	/^} tunmode_desc[] = {$/;"	v	typeref:struct:__anon4	file:
+tv_sec	loginrec.h	/^	unsigned int tv_sec;$/;"	m	struct:logininfo
+tv_usec	loginrec.h	/^	unsigned int tv_usec;$/;"	m	struct:logininfo
+type	auth1.c	/^	int type;$/;"	m	struct:AuthMethod1	file:
+type	loginrec.h	/^	short int  type;                         \/* type of login (LTYPE_*) *\/$/;"	m	struct:logininfo
+uid	loginrec.h	/^	int        uid;                          \/* UID of this user *\/$/;"	m	struct:logininfo
+uid	sftp-common.h	/^	u_int32_t	uid;$/;"	m	struct:Attrib
+usage	sshd.c	/^usage(void)$/;"	f	file:
+use	sftp-server.c	/^	int use;$/;"	m	struct:Handle	file:
+use_dns	servconf.h	/^	int	use_dns;$/;"	m	struct:__anon5
+use_login	servconf.h	/^	int     use_login;	\/* If true, login(1) is used *\/$/;"	m	struct:__anon5
+use_pam	servconf.h	/^	int	use_pam;		\/* Enable auth via PAM *\/$/;"	m	struct:__anon5
+use_privsep	sshd.c	/^int use_privsep = -1;$/;"	v
+used	session.h	/^	int	used;$/;"	m	struct:Session
+user	auth.h	/^	char		*user;		\/* username sent by the client *\/$/;"	m	struct:Authctxt
+user_key_allowed	auth2-pubkey.c	/^user_key_allowed(struct passwd *pw, Key *key)$/;"	f
+user_key_allowed2	auth2-pubkey.c	/^user_key_allowed2(struct passwd *pw, Key *key, char *file)$/;"	f	file:
+userauth	auth.h	/^	int	(*userauth)(Authctxt *authctxt);$/;"	m	struct:Authmethod
+userauth_banner	auth2.c	/^userauth_banner(void)$/;"	f	file:
+userauth_finish	auth2.c	/^userauth_finish(Authctxt *authctxt, int authenticated, char *method)$/;"	f
+userauth_gssapi	auth2-gss.c	/^userauth_gssapi(Authctxt *authctxt)$/;"	f	file:
+userauth_hostbased	auth2-hostbased.c	/^userauth_hostbased(Authctxt *authctxt)$/;"	f	file:
+userauth_kbdint	auth2-kbdint.c	/^userauth_kbdint(Authctxt *authctxt)$/;"	f	file:
+userauth_none	auth2-none.c	/^userauth_none(Authctxt *authctxt)$/;"	f	file:
+userauth_passwd	auth2-passwd.c	/^userauth_passwd(Authctxt *authctxt)$/;"	f	file:
+userauth_pubkey	auth2-pubkey.c	/^userauth_pubkey(Authctxt *authctxt)$/;"	f	file:
+userauth_send_banner	auth2.c	/^userauth_send_banner(const char *msg)$/;"	f
+username	loginrec.h	/^	char       username[LINFO_NAMESIZE];     \/* login username *\/$/;"	m	struct:logininfo
+utmp_len	sshd.c	/^u_int utmp_len = MAXHOSTNAMELEN;$/;"	v
+utmp_perform_login	loginrec.c	/^utmp_perform_login(struct logininfo *li)$/;"	f	file:
+utmp_perform_logout	loginrec.c	/^utmp_perform_logout(struct logininfo *li)$/;"	f	file:
+utmp_write_direct	loginrec.c	/^utmp_write_direct(struct logininfo *li, struct utmp *ut)$/;"	f	file:
+utmp_write_entry	loginrec.c	/^utmp_write_entry(struct logininfo *li)$/;"	f
+utmp_write_library	loginrec.c	/^utmp_write_library(struct logininfo *li, struct utmp *ut)$/;"	f	file:
+utmpx_perform_login	loginrec.c	/^utmpx_perform_login(struct logininfo *li)$/;"	f	file:
+utmpx_perform_logout	loginrec.c	/^utmpx_perform_logout(struct logininfo *li)$/;"	f	file:
+utmpx_write_direct	loginrec.c	/^utmpx_write_direct(struct logininfo *li, struct utmpx *utx)$/;"	f	file:
+utmpx_write_entry	loginrec.c	/^utmpx_write_entry(struct logininfo *li)$/;"	f
+utmpx_write_library	loginrec.c	/^utmpx_write_library(struct logininfo *li, struct utmpx *utx)$/;"	f	file:
+val	servconf.c	/^	int val;$/;"	m	struct:__anon4	file:
+val	session.h	/^		char	*val;$/;"	m	struct:Session::__anon6
+valid	auth.h	/^	int		 valid;		\/* user exists and is allowed to login *\/$/;"	m	struct:Authctxt
+verify_response	auth-chall.c	/^verify_response(Authctxt *authctxt, const char *response)$/;"	f
+version	sftp-server.c	/^int version;$/;"	v
+wait_until_can_do_something	serverloop.c	/^wait_until_can_do_something(fd_set **readsetp, fd_set **writesetp, int *maxfdp,$/;"	f	file:
+warn_expiry	auth-passwd.c	/^warn_expiry(Authctxt *authctxt, auth_session_t *as)$/;"	f	file:
+wtmp_get_entry	loginrec.c	/^wtmp_get_entry(struct logininfo *li)$/;"	f
+wtmp_islogin	loginrec.c	/^wtmp_islogin(struct logininfo *li, struct utmp *ut)$/;"	f	file:
+wtmp_perform_login	loginrec.c	/^wtmp_perform_login(struct logininfo *li)$/;"	f	file:
+wtmp_perform_logout	loginrec.c	/^wtmp_perform_logout(struct logininfo *li)$/;"	f	file:
+wtmp_write	loginrec.c	/^wtmp_write(struct logininfo *li, struct utmp *ut)$/;"	f	file:
+wtmp_write_entry	loginrec.c	/^wtmp_write_entry(struct logininfo *li)$/;"	f
+wtmpx_get_entry	loginrec.c	/^wtmpx_get_entry(struct logininfo *li)$/;"	f
+wtmpx_islogin	loginrec.c	/^wtmpx_islogin(struct logininfo *li, struct utmpx *utx)$/;"	f	file:
+wtmpx_perform_login	loginrec.c	/^wtmpx_perform_login(struct logininfo *li)$/;"	f	file:
+wtmpx_perform_logout	loginrec.c	/^wtmpx_perform_logout(struct logininfo *li)$/;"	f	file:
+wtmpx_write	loginrec.c	/^wtmpx_write(struct logininfo *li, struct utmpx *utx)$/;"	f	file:
+wtmpx_write_entry	loginrec.c	/^wtmpx_write_entry(struct logininfo *li)$/;"	f
+x11_chanids	session.h	/^	int	*x11_chanids;$/;"	m	struct:Session
+x11_display_offset	servconf.h	/^	int     x11_display_offset;	\/* What DISPLAY number to start$/;"	m	struct:__anon5
+x11_forwarding	servconf.h	/^	int     x11_forwarding;	\/* If true, permit inet (spoofing) X11 fwd. *\/$/;"	m	struct:__anon5
+x11_use_localhost	servconf.h	/^	int     x11_use_localhost;	\/* If true, use localhost for fake X11 server. *\/$/;"	m	struct:__anon5
+xauth_location	servconf.h	/^	char   *xauth_location;	\/* Location of xauth program *\/$/;"	m	struct:__anon5
+xpixel	session.h	/^	u_int	row, col, xpixel, ypixel;$/;"	m	struct:Session
+xxx_kex	sshd.c	/^Kex *xxx_kex;$/;"	v
+ypixel	session.h	/^	u_int	row, col, xpixel, ypixel;$/;"	m	struct:Session
